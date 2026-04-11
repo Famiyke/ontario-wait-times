@@ -36,7 +36,7 @@ python 02_analysis.py          # full analysis
 |-----|-----------|
 | Data Detective | Profiled Ontario Health wait time records, handled "LV" (low volume) suppression codes, validated priority level coding |
 | SQL/Python Programmer | Ranked hospitals, measured target compliance, identified worst-performing procedure-region pairs |
-| Dashboard Architect | Built Tableau dashboard: compliance heat map + hospital ranking + trend lines |
+| Tableau dashboard | https://public.tableau.com/app/profile/ikenna.nwogu/viz/OntarioSurgicalWaitTimesHealthAnalyticsDashboard/ONTARIOSURGICALWAITTIMES-HEALTHANALYTICSDASHBOARD |
 | Data Storyteller | Produced a patient access brief for a regional health team |
 | Strategic Consultant | Recommended capacity rebalancing across three LHIN regions |
 
