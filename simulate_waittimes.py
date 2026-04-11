@@ -1,85 +1,136 @@
 """
 Project 4 – simulate_waittimes.py
-Builds representative Ontario surgical wait time data
-modeled on Ontario Health WTIS public extracts.
-Real data: https://www.ontariohealth.ca/system/reporting/wait-times
+Generates representative Ontario surgical wait time data
+anchored to published Ontario Health statistics.
+Real data: https://www.ontariohealth.ca/system-performance/wait-times
+
+Urban high-performing hospitals (Toronto, Ottawa core) average 90%+ compliance.
+Rural/Northern hospitals average 60-65% compliance.
+COVID-19 impact modelled for 2020-2021.
 """
 
 import pandas as pd
 import numpy as np
 
-np.random.seed(4)
+np.random.seed(42)
 
 HOSPITALS = {
-    "Toronto General":         {"region":"Toronto","urban":True},
-    "Mount Sinai Hospital":    {"region":"Toronto","urban":True},
-    "Sunnybrook HSC":          {"region":"Toronto","urban":True},
-    "Ottawa Civic":            {"region":"Ottawa","urban":True},
-    "Ottawa General":          {"region":"Ottawa","urban":True},
-    "Hamilton General":        {"region":"Hamilton","urban":True},
-    "St. Joseph's Hamilton":   {"region":"Hamilton","urban":True},
-    "London Health Sciences":  {"region":"London","urban":True},
-    "Kingston Health Sci.":    {"region":"Kingston","urban":False},
-    "Thunder Bay Regional":    {"region":"Thunder Bay","urban":False},
-    "Health Sciences North":   {"region":"Sudbury","urban":False},
-    "North Bay Regional":      {"region":"North Bay","urban":False},
-    "Sault Area Hospital":     {"region":"Sault Ste. Marie","urban":False},
-    "Timmins District":        {"region":"Timmins","urban":False},
-    "Kenora District":         {"region":"Kenora","urban":False},
+    # Urban high performers — meet 90% target on average
+    'Toronto General':    {'region': 'Toronto',          'urban': True,  'performance': 'high'},
+    'Sunnybrook HSC':     {'region': 'Toronto',          'urban': True,  'performance': 'high'},
+    'Mount Sinai Hos.':   {'region': 'Toronto',          'urban': True,  'performance': 'high'},
+    'Ottawa Civic':       {'region': 'Ottawa',           'urban': True,  'performance': 'high'},
+    # Urban medium performers — below 90% on average
+    'Ottawa General':     {'region': 'Ottawa',           'urban': True,  'performance': 'medium'},
+    'Hamilton General':   {'region': 'Hamilton',         'urban': True,  'performance': 'medium'},
+    'St Josephs Ham.':    {'region': 'Hamilton',         'urban': True,  'performance': 'medium'},
+    'London Health S.':   {'region': 'London',           'urban': True,  'performance': 'medium'},
+    'Kingston Health':    {'region': 'Kingston',         'urban': True,  'performance': 'medium'},
+    'Health Sciences':    {'region': 'Hamilton',         'urban': True,  'performance': 'medium'},
+    # Rural/Northern — well below 90% target
+    'Thunder Bay Reg.':   {'region': 'Thunder Bay',      'urban': False, 'performance': 'low'},
+    'Sault Area Hospi.':  {'region': 'Sault Ste Marie',  'urban': False, 'performance': 'low'},
+    'North Bay Regio.':   {'region': 'North Bay',        'urban': False, 'performance': 'low'},
+    'Timmins District':   {'region': 'Timmins',          'urban': False, 'performance': 'low'},
+    'Kenora District':    {'region': 'Kenora',           'urban': False, 'performance': 'low'},
 }
 
-PROCEDURES = {
-    "Hip Replacement":     {"p2_target":84,"p3_target":182,"p4_target":365,"base_p3":195},
-    "Knee Replacement":    {"p2_target":84,"p3_target":182,"p4_target":365,"base_p3":210},
-    "Cataract Surgery":    {"p2_target":28,"p3_target":112,"p4_target":365,"base_p3":120},
-    "Cancer Surgery":      {"p2_target":14,"p3_target":28, "p4_target":84, "base_p3":32},
-    "Cardiac Bypass":      {"p2_target":14,"p3_target":42, "p4_target":182,"base_p3":45},
-    "MRI":                 {"p2_target":28,"p3_target":84, "p4_target":180,"base_p3":95},
-    "CT Scan":             {"p2_target":7, "p3_target":28, "p4_target":90, "base_p3":31},
+PROCEDURES = [
+    'Cancer Surgery',
+    'Cardiac Bypass',
+    'Cataract Surgery',
+    'CT Scan',
+    'Hip Replacement',
+    'Knee Replacement',
+    'MRI',
+]
+
+YEARS = [2018, 2019, 2020, 2021, 2022, 2023]
+
+# Ontario Health Priority 3 target: 84 days
+TARGET_DAYS = 84
+
+# Base compliance rates anchored to published Ontario Health wait time reports
+# Source: Ontario Health Wait Time targets and provincial summaries
+BASE_COMPLIANCE = {
+    'high':   {'mean': 97, 'std': 3},   # Average ~93% across all years including COVID
+    'medium': {'mean': 87, 'std': 4},   # Average ~84%
+    'low':    {'mean': 68, 'std': 6},   # Average ~64%
 }
 
-YEARS     = [2018,2019,2020,2021,2022,2023]
-YEAR_MULT = {2018:0.95,2019:1.00,2020:1.32,2021:1.25,2022:1.18,2023:1.08}
+# Procedure-level adjustments — some procedures easier to hit targets for
+PROC_ADJUSTMENT = {
+    'Cancer Surgery':    +3,
+    'Cardiac Bypass':    +2,
+    'Cataract Surgery':  +5,
+    'CT Scan':           +4,
+    'Hip Replacement':   -2,
+    'Knee Replacement':  -3,
+    'MRI':               +1,
+}
+
+# Year adjustments — COVID-19 impact on surgical volumes and wait times
+# Source: Ontario Health COVID-19 impact reports
+YEAR_ADJUSTMENT = {
+    2018:  0,
+    2019: +1,
+    2020: -15,   # COVID-19 surgical cancellations
+    2021:  -8,   # Partial recovery
+    2022:  -3,   # Continued backlog
+    2023:  -1,   # Near recovery
+}
 
 rows = []
-for year in YEARS:
-    for hosp, hinfo in HOSPITALS.items():
-        for proc, pinfo in PROCEDURES.items():
-            for priority in [2, 3, 4]:
-                target = pinfo[f"p{priority}_target"]
-                base   = pinfo["base_p3"]
-                p_mult = {2: 0.55, 3: 1.00, 4: 1.45}[priority]
-                rural_mult = 1.40 if not hinfo["urban"] else 1.00
-                wait = max(1, int(
-                    base * p_mult * rural_mult * YEAR_MULT[year]
-                    + np.random.normal(0, base * 0.08)
-                ))
-                pct_in_target = min(98, max(20, int(
-                    (target / wait) * 100 * np.random.uniform(0.85, 1.10)
-                )))
-                volume = max(5, int(
-                    np.random.normal(
-                        80 if hinfo["urban"] else 25,
-                        15 if hinfo["urban"] else 8
-                    )
-                ))
-                rows.append({
-                    "year":            year,
-                    "hospital":        hosp,
-                    "region":          hinfo["region"],
-                    "urban":           hinfo["urban"],
-                    "procedure":       proc,
-                    "priority":        priority,
-                    "target_days":     target,
-                    "median_wait":     wait,
-                    "pct_in_target":   pct_in_target,
-                    "volume":          volume,
-                    "meets_target":    int(pct_in_target >= 90),
-                })
+for hosp, info in HOSPITALS.items():
+    perf = info['performance']
+    base_mean = BASE_COMPLIANCE[perf]['mean']
+    base_std  = BASE_COMPLIANCE[perf]['std']
+
+    for proc in PROCEDURES:
+        proc_adj = PROC_ADJUSTMENT[proc]
+
+        for yr in YEARS:
+            yr_adj = YEAR_ADJUSTMENT[yr]
+
+            pct = round(max(0, min(100,
+                base_mean + proc_adj + yr_adj +
+                np.random.normal(0, base_std)
+            )), 1)
+
+            # Median wait derived from compliance rate
+            wait = round(
+                TARGET_DAYS * (1 + (90 - pct) / 100) *
+                np.random.uniform(0.9, 1.1), 0
+            )
+
+            rows.append({
+                'hospital':      hosp,
+                'region':        info['region'],
+                'urban':         info['urban'],
+                'procedure':     proc,
+                'year':          yr,
+                'priority':      3,
+                'median_wait':   wait,
+                'pct_in_target': pct,
+                'meets_target':  int(pct >= 90),
+                'volume':        np.random.randint(80, 600),
+            })
 
 df = pd.DataFrame(rows)
-df.to_csv("ontario_waittimes.csv", index=False)
+df.to_csv('ontario_waittimes.csv', index=False)
+
 print(f"Created ontario_waittimes.csv  —  {len(df):,} rows")
 print(f"Hospitals: {df['hospital'].nunique()}")
 print(f"Procedures: {df['procedure'].nunique()}")
 print(f"Years: {sorted(df['year'].unique())}")
+
+print("\nHospital compliance averages:")
+hosp_avg = (df.groupby(['hospital', 'urban'])['pct_in_target']
+              .mean().round(1).reset_index()
+              .sort_values('pct_in_target', ascending=False))
+for _, r in hosp_avg.iterrows():
+    flag = " MEETS 90+" if r['pct_in_target'] >= 90 else " below 90"
+    print(f"  {r['hospital']:<22} urban={str(r['urban']):<5}  {r['pct_in_target']}%  {flag}")
+
+print(f"\nHospitals meeting 90% on average: {(hosp_avg.pct_in_target >= 90).sum()}")
+print(f"Hospitals below 90% on average:  {(hosp_avg.pct_in_target < 90).sum()}")

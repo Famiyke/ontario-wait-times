@@ -1,0 +1,631 @@
+hospital,region,urban,procedure,year,priority,median_wait,pct_in_target,meets_target,volume
+Toronto General,Toronto,True,Cancer Surgery,2018,3,79.0,100.0,1,100
+Toronto General,Toronto,True,Cancer Surgery,2019,3,70.0,100.0,1,546
+Toronto General,Toronto,True,Cancer Surgery,2020,3,86.0,84.7,0,210
+Toronto General,Toronto,True,Cancer Surgery,2021,3,77.0,89.2,0,423
+Toronto General,Toronto,True,Cancer Surgery,2022,3,74.0,95.6,1,356
+Toronto General,Toronto,True,Cancer Surgery,2023,3,77.0,100.0,1,393
+Toronto General,Toronto,True,Cardiac Bypass,2018,3,80.0,91.2,1,138
+Toronto General,Toronto,True,Cardiac Bypass,2019,3,74.0,100.0,1,555
+Toronto General,Toronto,True,Cardiac Bypass,2020,3,86.0,84.7,0,323
+Toronto General,Toronto,True,Cardiac Bypass,2021,3,87.0,88.7,0,210
+Toronto General,Toronto,True,Cardiac Bypass,2022,3,77.0,97.3,1,353
+Toronto General,Toronto,True,Cardiac Bypass,2023,3,82.0,100.0,1,395
+Toronto General,Toronto,True,Cataract Surgery,2018,3,71.0,95.9,1,419
+Toronto General,Toronto,True,Cataract Surgery,2019,3,72.0,100.0,1,534
+Toronto General,Toronto,True,Cataract Surgery,2020,3,78.0,90.4,1,160
+Toronto General,Toronto,True,Cataract Surgery,2021,3,76.0,95.1,1,467
+Toronto General,Toronto,True,Cataract Surgery,2022,3,77.0,99.6,1,556
+Toronto General,Toronto,True,Cataract Surgery,2023,3,87.0,95.1,1,241
+Toronto General,Toronto,True,CT Scan,2018,3,79.0,100.0,1,350
+Toronto General,Toronto,True,CT Scan,2019,3,69.0,100.0,1,331
+Toronto General,Toronto,True,CT Scan,2020,3,86.0,85.7,0,417
+Toronto General,Toronto,True,CT Scan,2021,3,83.0,92.1,1,296
+Toronto General,Toronto,True,CT Scan,2022,3,71.0,99.0,1,94
+Toronto General,Toronto,True,CT Scan,2023,3,75.0,94.7,1,423
+Toronto General,Toronto,True,Hip Replacement,2018,3,76.0,90.3,1,578
+Toronto General,Toronto,True,Hip Replacement,2019,3,84.0,93.6,1,498
+Toronto General,Toronto,True,Hip Replacement,2020,3,101.0,77.5,0,112
+Toronto General,Toronto,True,Hip Replacement,2021,3,80.0,86.1,0,486
+Toronto General,Toronto,True,Hip Replacement,2022,3,81.0,95.6,1,541
+Toronto General,Toronto,True,Hip Replacement,2023,3,83.0,97.7,1,84
+Toronto General,Toronto,True,Knee Replacement,2018,3,77.0,98.5,1,472
+Toronto General,Toronto,True,Knee Replacement,2019,3,82.0,96.0,1,540
+Toronto General,Toronto,True,Knee Replacement,2020,3,92.0,79.5,0,175
+Toronto General,Toronto,True,Knee Replacement,2021,3,91.0,85.7,0,564
+Toronto General,Toronto,True,Knee Replacement,2022,3,89.0,89.4,0,115
+Toronto General,Toronto,True,Knee Replacement,2023,3,93.0,88.5,0,322
+Toronto General,Toronto,True,MRI,2018,3,82.0,99.5,1,107
+Toronto General,Toronto,True,MRI,2019,3,71.0,100.0,1,419
+Toronto General,Toronto,True,MRI,2020,3,95.0,83.3,0,427
+Toronto General,Toronto,True,MRI,2021,3,79.0,92.9,1,269
+Toronto General,Toronto,True,MRI,2022,3,79.0,94.2,1,338
+Toronto General,Toronto,True,MRI,2023,3,71.0,95.9,1,535
+Sunnybrook HSC,Toronto,True,Cancer Surgery,2018,3,82.0,96.1,1,313
+Sunnybrook HSC,Toronto,True,Cancer Surgery,2019,3,73.0,100.0,1,453
+Sunnybrook HSC,Toronto,True,Cancer Surgery,2020,3,86.0,85.9,0,576
+Sunnybrook HSC,Toronto,True,Cancer Surgery,2021,3,82.0,87.6,0,347
+Sunnybrook HSC,Toronto,True,Cancer Surgery,2022,3,75.0,96.9,1,160
+Sunnybrook HSC,Toronto,True,Cancer Surgery,2023,3,77.0,94.0,1,81
+Sunnybrook HSC,Toronto,True,Cardiac Bypass,2018,3,75.0,97.0,1,304
+Sunnybrook HSC,Toronto,True,Cardiac Bypass,2019,3,78.0,100.0,1,209
+Sunnybrook HSC,Toronto,True,Cardiac Bypass,2020,3,96.0,76.5,0,326
+Sunnybrook HSC,Toronto,True,Cardiac Bypass,2021,3,82.0,95.4,1,282
+Sunnybrook HSC,Toronto,True,Cardiac Bypass,2022,3,87.0,92.0,1,277
+Sunnybrook HSC,Toronto,True,Cardiac Bypass,2023,3,77.0,96.0,1,590
+Sunnybrook HSC,Toronto,True,Cataract Surgery,2018,3,69.0,99.0,1,482
+Sunnybrook HSC,Toronto,True,Cataract Surgery,2019,3,79.0,100.0,1,590
+Sunnybrook HSC,Toronto,True,Cataract Surgery,2020,3,79.0,88.9,0,417
+Sunnybrook HSC,Toronto,True,Cataract Surgery,2021,3,89.0,90.3,1,552
+Sunnybrook HSC,Toronto,True,Cataract Surgery,2022,3,79.0,99.6,1,342
+Sunnybrook HSC,Toronto,True,Cataract Surgery,2023,3,81.0,96.7,1,425
+Sunnybrook HSC,Toronto,True,CT Scan,2018,3,72.0,100.0,1,383
+Sunnybrook HSC,Toronto,True,CT Scan,2019,3,83.0,100.0,1,532
+Sunnybrook HSC,Toronto,True,CT Scan,2020,3,84.0,86.8,0,178
+Sunnybrook HSC,Toronto,True,CT Scan,2021,3,83.0,95.3,1,287
+Sunnybrook HSC,Toronto,True,CT Scan,2022,3,69.0,99.9,1,499
+Sunnybrook HSC,Toronto,True,CT Scan,2023,3,82.0,100.0,1,333
+Sunnybrook HSC,Toronto,True,Hip Replacement,2018,3,82.0,95.5,1,240
+Sunnybrook HSC,Toronto,True,Hip Replacement,2019,3,74.0,92.3,1,477
+Sunnybrook HSC,Toronto,True,Hip Replacement,2020,3,92.0,83.5,0,214
+Sunnybrook HSC,Toronto,True,Hip Replacement,2021,3,93.0,84.5,0,112
+Sunnybrook HSC,Toronto,True,Hip Replacement,2022,3,83.0,93.9,1,101
+Sunnybrook HSC,Toronto,True,Hip Replacement,2023,3,72.0,100.0,1,117
+Sunnybrook HSC,Toronto,True,Knee Replacement,2018,3,87.0,94.0,1,106
+Sunnybrook HSC,Toronto,True,Knee Replacement,2019,3,83.0,96.2,1,363
+Sunnybrook HSC,Toronto,True,Knee Replacement,2020,3,86.0,81.6,0,595
+Sunnybrook HSC,Toronto,True,Knee Replacement,2021,3,78.0,87.2,0,128
+Sunnybrook HSC,Toronto,True,Knee Replacement,2022,3,94.0,85.7,0,116
+Sunnybrook HSC,Toronto,True,Knee Replacement,2023,3,89.0,92.3,1,576
+Sunnybrook HSC,Toronto,True,MRI,2018,3,83.0,100.0,1,195
+Sunnybrook HSC,Toronto,True,MRI,2019,3,72.0,100.0,1,240
+Sunnybrook HSC,Toronto,True,MRI,2020,3,93.0,80.2,0,402
+Sunnybrook HSC,Toronto,True,MRI,2021,3,86.0,88.5,0,367
+Sunnybrook HSC,Toronto,True,MRI,2022,3,79.0,91.6,1,569
+Sunnybrook HSC,Toronto,True,MRI,2023,3,81.0,100.0,1,183
+Mount Sinai Hos.,Toronto,True,Cancer Surgery,2018,3,73.0,100.0,1,556
+Mount Sinai Hos.,Toronto,True,Cancer Surgery,2019,3,73.0,100.0,1,487
+Mount Sinai Hos.,Toronto,True,Cancer Surgery,2020,3,88.0,85.1,0,99
+Mount Sinai Hos.,Toronto,True,Cancer Surgery,2021,3,83.0,94.6,1,591
+Mount Sinai Hos.,Toronto,True,Cancer Surgery,2022,3,86.0,95.3,1,222
+Mount Sinai Hos.,Toronto,True,Cancer Surgery,2023,3,75.0,98.6,1,130
+Mount Sinai Hos.,Toronto,True,Cardiac Bypass,2018,3,72.0,100.0,1,393
+Mount Sinai Hos.,Toronto,True,Cardiac Bypass,2019,3,86.0,94.4,1,384
+Mount Sinai Hos.,Toronto,True,Cardiac Bypass,2020,3,92.0,81.3,0,132
+Mount Sinai Hos.,Toronto,True,Cardiac Bypass,2021,3,80.0,90.0,1,84
+Mount Sinai Hos.,Toronto,True,Cardiac Bypass,2022,3,71.0,99.6,1,429
+Mount Sinai Hos.,Toronto,True,Cardiac Bypass,2023,3,78.0,97.5,1,348
+Mount Sinai Hos.,Toronto,True,Cataract Surgery,2018,3,75.0,100.0,1,137
+Mount Sinai Hos.,Toronto,True,Cataract Surgery,2019,3,69.0,100.0,1,553
+Mount Sinai Hos.,Toronto,True,Cataract Surgery,2020,3,83.0,84.7,0,592
+Mount Sinai Hos.,Toronto,True,Cataract Surgery,2021,3,76.0,99.0,1,175
+Mount Sinai Hos.,Toronto,True,Cataract Surgery,2022,3,78.0,100.0,1,351
+Mount Sinai Hos.,Toronto,True,Cataract Surgery,2023,3,76.0,100.0,1,526
+Mount Sinai Hos.,Toronto,True,CT Scan,2018,3,69.0,100.0,1,233
+Mount Sinai Hos.,Toronto,True,CT Scan,2019,3,73.0,100.0,1,165
+Mount Sinai Hos.,Toronto,True,CT Scan,2020,3,86.0,87.3,0,297
+Mount Sinai Hos.,Toronto,True,CT Scan,2021,3,84.0,95.3,1,420
+Mount Sinai Hos.,Toronto,True,CT Scan,2022,3,79.0,94.1,1,102
+Mount Sinai Hos.,Toronto,True,CT Scan,2023,3,69.0,99.7,1,179
+Mount Sinai Hos.,Toronto,True,Hip Replacement,2018,3,82.0,94.6,1,521
+Mount Sinai Hos.,Toronto,True,Hip Replacement,2019,3,80.0,94.6,1,404
+Mount Sinai Hos.,Toronto,True,Hip Replacement,2020,3,98.0,82.9,0,337
+Mount Sinai Hos.,Toronto,True,Hip Replacement,2021,3,75.0,91.6,1,239
+Mount Sinai Hos.,Toronto,True,Hip Replacement,2022,3,80.0,92.3,1,459
+Mount Sinai Hos.,Toronto,True,Hip Replacement,2023,3,73.0,96.0,1,506
+Mount Sinai Hos.,Toronto,True,Knee Replacement,2018,3,89.0,93.5,1,122
+Mount Sinai Hos.,Toronto,True,Knee Replacement,2019,3,74.0,96.8,1,476
+Mount Sinai Hos.,Toronto,True,Knee Replacement,2020,3,86.0,77.4,0,114
+Mount Sinai Hos.,Toronto,True,Knee Replacement,2021,3,88.0,82.2,0,169
+Mount Sinai Hos.,Toronto,True,Knee Replacement,2022,3,73.0,93.7,1,497
+Mount Sinai Hos.,Toronto,True,Knee Replacement,2023,3,79.0,91.6,1,275
+Mount Sinai Hos.,Toronto,True,MRI,2018,3,87.0,94.9,1,455
+Mount Sinai Hos.,Toronto,True,MRI,2019,3,79.0,100.0,1,356
+Mount Sinai Hos.,Toronto,True,MRI,2020,3,88.0,83.2,0,271
+Mount Sinai Hos.,Toronto,True,MRI,2021,3,84.0,91.5,1,178
+Mount Sinai Hos.,Toronto,True,MRI,2022,3,89.0,89.6,0,269
+Mount Sinai Hos.,Toronto,True,MRI,2023,3,82.0,93.3,1,448
+Ottawa Civic,Ottawa,True,Cancer Surgery,2018,3,72.0,100.0,1,352
+Ottawa Civic,Ottawa,True,Cancer Surgery,2019,3,76.0,100.0,1,421
+Ottawa Civic,Ottawa,True,Cancer Surgery,2020,3,82.0,83.2,0,524
+Ottawa Civic,Ottawa,True,Cancer Surgery,2021,3,90.0,91.1,1,155
+Ottawa Civic,Ottawa,True,Cancer Surgery,2022,3,80.0,98.2,1,585
+Ottawa Civic,Ottawa,True,Cancer Surgery,2023,3,79.0,98.6,1,148
+Ottawa Civic,Ottawa,True,Cardiac Bypass,2018,3,82.0,96.0,1,563
+Ottawa Civic,Ottawa,True,Cardiac Bypass,2019,3,86.0,96.4,1,223
+Ottawa Civic,Ottawa,True,Cardiac Bypass,2020,3,92.0,81.9,0,212
+Ottawa Civic,Ottawa,True,Cardiac Bypass,2021,3,87.0,91.0,1,314
+Ottawa Civic,Ottawa,True,Cardiac Bypass,2022,3,82.0,98.7,1,309
+Ottawa Civic,Ottawa,True,Cardiac Bypass,2023,3,70.0,99.5,1,247
+Ottawa Civic,Ottawa,True,Cataract Surgery,2018,3,69.0,100.0,1,418
+Ottawa Civic,Ottawa,True,Cataract Surgery,2019,3,77.0,100.0,1,444
+Ottawa Civic,Ottawa,True,Cataract Surgery,2020,3,91.0,90.5,1,296
+Ottawa Civic,Ottawa,True,Cataract Surgery,2021,3,83.0,92.6,1,149
+Ottawa Civic,Ottawa,True,Cataract Surgery,2022,3,75.0,98.5,1,246
+Ottawa Civic,Ottawa,True,Cataract Surgery,2023,3,74.0,100.0,1,118
+Ottawa Civic,Ottawa,True,CT Scan,2018,3,77.0,96.2,1,137
+Ottawa Civic,Ottawa,True,CT Scan,2019,3,79.0,100.0,1,535
+Ottawa Civic,Ottawa,True,CT Scan,2020,3,91.0,87.0,0,427
+Ottawa Civic,Ottawa,True,CT Scan,2021,3,91.0,90.5,1,270
+Ottawa Civic,Ottawa,True,CT Scan,2022,3,80.0,95.5,1,196
+Ottawa Civic,Ottawa,True,CT Scan,2023,3,83.0,99.9,1,252
+Ottawa Civic,Ottawa,True,Hip Replacement,2018,3,72.0,95.7,1,306
+Ottawa Civic,Ottawa,True,Hip Replacement,2019,3,82.0,96.0,1,520
+Ottawa Civic,Ottawa,True,Hip Replacement,2020,3,90.0,86.8,0,494
+Ottawa Civic,Ottawa,True,Hip Replacement,2021,3,94.0,88.2,0,338
+Ottawa Civic,Ottawa,True,Hip Replacement,2022,3,85.0,91.7,1,87
+Ottawa Civic,Ottawa,True,Hip Replacement,2023,3,73.0,96.9,1,169
+Ottawa Civic,Ottawa,True,Knee Replacement,2018,3,80.0,89.9,0,120
+Ottawa Civic,Ottawa,True,Knee Replacement,2019,3,77.0,93.3,1,581
+Ottawa Civic,Ottawa,True,Knee Replacement,2020,3,85.0,84.2,0,332
+Ottawa Civic,Ottawa,True,Knee Replacement,2021,3,99.0,81.5,0,335
+Ottawa Civic,Ottawa,True,Knee Replacement,2022,3,74.0,93.3,1,321
+Ottawa Civic,Ottawa,True,Knee Replacement,2023,3,82.0,93.5,1,84
+Ottawa Civic,Ottawa,True,MRI,2018,3,82.0,97.8,1,303
+Ottawa Civic,Ottawa,True,MRI,2019,3,85.0,98.2,1,361
+Ottawa Civic,Ottawa,True,MRI,2020,3,95.0,84.0,0,540
+Ottawa Civic,Ottawa,True,MRI,2021,3,77.0,89.7,0,184
+Ottawa Civic,Ottawa,True,MRI,2022,3,76.0,90.2,1,597
+Ottawa Civic,Ottawa,True,MRI,2023,3,83.0,95.2,1,516
+Ottawa General,Ottawa,True,Cancer Surgery,2018,3,83.0,96.4,1,162
+Ottawa General,Ottawa,True,Cancer Surgery,2019,3,77.0,93.4,1,157
+Ottawa General,Ottawa,True,Cancer Surgery,2020,3,94.0,72.4,0,525
+Ottawa General,Ottawa,True,Cancer Surgery,2021,3,100.0,78.9,0,567
+Ottawa General,Ottawa,True,Cancer Surgery,2022,3,85.0,80.9,0,233
+Ottawa General,Ottawa,True,Cancer Surgery,2023,3,81.0,94.1,1,517
+Ottawa General,Ottawa,True,Cardiac Bypass,2018,3,90.0,89.5,0,133
+Ottawa General,Ottawa,True,Cardiac Bypass,2019,3,86.0,96.2,1,480
+Ottawa General,Ottawa,True,Cardiac Bypass,2020,3,99.0,76.6,0,514
+Ottawa General,Ottawa,True,Cardiac Bypass,2021,3,94.0,86.5,0,385
+Ottawa General,Ottawa,True,Cardiac Bypass,2022,3,92.0,79.1,0,526
+Ottawa General,Ottawa,True,Cardiac Bypass,2023,3,84.0,93.8,1,328
+Ottawa General,Ottawa,True,Cataract Surgery,2018,3,76.0,98.0,1,185
+Ottawa General,Ottawa,True,Cataract Surgery,2019,3,87.0,93.3,1,212
+Ottawa General,Ottawa,True,Cataract Surgery,2020,3,102.0,76.2,0,587
+Ottawa General,Ottawa,True,Cataract Surgery,2021,3,77.0,89.7,0,148
+Ottawa General,Ottawa,True,Cataract Surgery,2022,3,82.0,89.0,0,122
+Ottawa General,Ottawa,True,Cataract Surgery,2023,3,78.0,92.6,1,190
+Ottawa General,Ottawa,True,CT Scan,2018,3,84.0,86.6,0,274
+Ottawa General,Ottawa,True,CT Scan,2019,3,87.0,94.0,1,172
+Ottawa General,Ottawa,True,CT Scan,2020,3,90.0,76.3,0,84
+Ottawa General,Ottawa,True,CT Scan,2021,3,86.0,84.4,0,484
+Ottawa General,Ottawa,True,CT Scan,2022,3,78.0,94.7,1,125
+Ottawa General,Ottawa,True,CT Scan,2023,3,74.0,99.5,1,157
+Ottawa General,Ottawa,True,Hip Replacement,2018,3,85.0,80.1,0,126
+Ottawa General,Ottawa,True,Hip Replacement,2019,3,94.0,81.4,0,318
+Ottawa General,Ottawa,True,Hip Replacement,2020,3,102.0,65.1,0,416
+Ottawa General,Ottawa,True,Hip Replacement,2021,3,91.0,77.2,0,336
+Ottawa General,Ottawa,True,Hip Replacement,2022,3,99.0,82.7,0,382
+Ottawa General,Ottawa,True,Hip Replacement,2023,3,89.0,80.9,0,553
+Ottawa General,Ottawa,True,Knee Replacement,2018,3,92.0,84.8,0,391
+Ottawa General,Ottawa,True,Knee Replacement,2019,3,77.0,91.4,1,82
+Ottawa General,Ottawa,True,Knee Replacement,2020,3,102.0,69.1,0,353
+Ottawa General,Ottawa,True,Knee Replacement,2021,3,92.0,79.9,0,94
+Ottawa General,Ottawa,True,Knee Replacement,2022,3,85.0,82.2,0,118
+Ottawa General,Ottawa,True,Knee Replacement,2023,3,88.0,81.0,0,310
+Ottawa General,Ottawa,True,MRI,2018,3,81.0,88.3,0,291
+Ottawa General,Ottawa,True,MRI,2019,3,87.0,85.5,0,473
+Ottawa General,Ottawa,True,MRI,2020,3,90.0,73.0,0,190
+Ottawa General,Ottawa,True,MRI,2021,3,92.0,85.9,0,448
+Ottawa General,Ottawa,True,MRI,2022,3,92.0,77.0,0,361
+Ottawa General,Ottawa,True,MRI,2023,3,85.0,91.3,1,522
+Hamilton General,Hamilton,True,Cancer Surgery,2018,3,82.0,84.4,0,582
+Hamilton General,Hamilton,True,Cancer Surgery,2019,3,81.0,93.3,1,429
+Hamilton General,Hamilton,True,Cancer Surgery,2020,3,92.0,72.6,0,216
+Hamilton General,Hamilton,True,Cancer Surgery,2021,3,86.0,78.5,0,322
+Hamilton General,Hamilton,True,Cancer Surgery,2022,3,76.0,90.2,1,197
+Hamilton General,Hamilton,True,Cancer Surgery,2023,3,80.0,89.6,0,583
+Hamilton General,Hamilton,True,Cardiac Bypass,2018,3,86.0,92.3,1,471
+Hamilton General,Hamilton,True,Cardiac Bypass,2019,3,82.0,92.3,1,252
+Hamilton General,Hamilton,True,Cardiac Bypass,2020,3,96.0,71.3,0,304
+Hamilton General,Hamilton,True,Cardiac Bypass,2021,3,94.0,83.3,0,219
+Hamilton General,Hamilton,True,Cardiac Bypass,2022,3,83.0,87.0,0,218
+Hamilton General,Hamilton,True,Cardiac Bypass,2023,3,96.0,84.4,0,338
+Hamilton General,Hamilton,True,Cataract Surgery,2018,3,77.0,91.4,1,251
+Hamilton General,Hamilton,True,Cataract Surgery,2019,3,78.0,91.4,1,247
+Hamilton General,Hamilton,True,Cataract Surgery,2020,3,100.0,74.6,0,498
+Hamilton General,Hamilton,True,Cataract Surgery,2021,3,84.0,87.0,0,397
+Hamilton General,Hamilton,True,Cataract Surgery,2022,3,94.0,86.8,0,538
+Hamilton General,Hamilton,True,Cataract Surgery,2023,3,85.0,97.0,1,592
+Hamilton General,Hamilton,True,CT Scan,2018,3,87.0,93.0,1,308
+Hamilton General,Hamilton,True,CT Scan,2019,3,72.0,98.3,1,370
+Hamilton General,Hamilton,True,CT Scan,2020,3,98.0,77.6,0,489
+Hamilton General,Hamilton,True,CT Scan,2021,3,99.0,81.3,0,121
+Hamilton General,Hamilton,True,CT Scan,2022,3,81.0,92.8,1,501
+Hamilton General,Hamilton,True,CT Scan,2023,3,86.0,88.4,0,222
+Hamilton General,Hamilton,True,Hip Replacement,2018,3,92.0,77.6,0,183
+Hamilton General,Hamilton,True,Hip Replacement,2019,3,86.0,90.0,1,277
+Hamilton General,Hamilton,True,Hip Replacement,2020,3,97.0,70.7,0,527
+Hamilton General,Hamilton,True,Hip Replacement,2021,3,87.0,79.3,0,368
+Hamilton General,Hamilton,True,Hip Replacement,2022,3,92.0,85.9,0,520
+Hamilton General,Hamilton,True,Hip Replacement,2023,3,85.0,84.3,0,490
+Hamilton General,Hamilton,True,Knee Replacement,2018,3,90.0,90.0,1,197
+Hamilton General,Hamilton,True,Knee Replacement,2019,3,92.0,86.6,0,238
+Hamilton General,Hamilton,True,Knee Replacement,2020,3,106.0,65.9,0,94
+Hamilton General,Hamilton,True,Knee Replacement,2021,3,109.0,67.2,0,340
+Hamilton General,Hamilton,True,Knee Replacement,2022,3,106.0,70.7,0,490
+Hamilton General,Hamilton,True,Knee Replacement,2023,3,94.0,81.5,0,371
+Hamilton General,Hamilton,True,MRI,2018,3,89.0,90.9,1,333
+Hamilton General,Hamilton,True,MRI,2019,3,86.0,95.3,1,213
+Hamilton General,Hamilton,True,MRI,2020,3,110.0,69.4,0,475
+Hamilton General,Hamilton,True,MRI,2021,3,108.0,70.7,0,289
+Hamilton General,Hamilton,True,MRI,2022,3,95.0,84.2,0,539
+Hamilton General,Hamilton,True,MRI,2023,3,79.0,87.2,0,403
+St Josephs Ham.,Hamilton,True,Cancer Surgery,2018,3,78.0,94.8,1,130
+St Josephs Ham.,Hamilton,True,Cancer Surgery,2019,3,85.0,93.7,1,375
+St Josephs Ham.,Hamilton,True,Cancer Surgery,2020,3,91.0,73.7,0,499
+St Josephs Ham.,Hamilton,True,Cancer Surgery,2021,3,85.0,80.1,0,80
+St Josephs Ham.,Hamilton,True,Cancer Surgery,2022,3,88.0,87.2,0,510
+St Josephs Ham.,Hamilton,True,Cancer Surgery,2023,3,74.0,93.4,1,216
+St Josephs Ham.,Hamilton,True,Cardiac Bypass,2018,3,84.0,91.5,1,323
+St Josephs Ham.,Hamilton,True,Cardiac Bypass,2019,3,87.0,87.5,0,154
+St Josephs Ham.,Hamilton,True,Cardiac Bypass,2020,3,97.0,73.7,0,426
+St Josephs Ham.,Hamilton,True,Cardiac Bypass,2021,3,88.0,84.2,0,258
+St Josephs Ham.,Hamilton,True,Cardiac Bypass,2022,3,80.0,87.9,0,580
+St Josephs Ham.,Hamilton,True,Cardiac Bypass,2023,3,98.0,81.9,0,256
+St Josephs Ham.,Hamilton,True,Cataract Surgery,2018,3,80.0,89.1,0,548
+St Josephs Ham.,Hamilton,True,Cataract Surgery,2019,3,79.0,96.6,1,163
+St Josephs Ham.,Hamilton,True,Cataract Surgery,2020,3,94.0,86.1,0,142
+St Josephs Ham.,Hamilton,True,Cataract Surgery,2021,3,104.0,77.5,0,406
+St Josephs Ham.,Hamilton,True,Cataract Surgery,2022,3,91.0,86.3,0,397
+St Josephs Ham.,Hamilton,True,Cataract Surgery,2023,3,78.0,91.6,1,364
+St Josephs Ham.,Hamilton,True,CT Scan,2018,3,94.0,85.3,0,98
+St Josephs Ham.,Hamilton,True,CT Scan,2019,3,71.0,97.9,1,450
+St Josephs Ham.,Hamilton,True,CT Scan,2020,3,90.0,81.6,0,193
+St Josephs Ham.,Hamilton,True,CT Scan,2021,3,99.0,72.4,0,343
+St Josephs Ham.,Hamilton,True,CT Scan,2022,3,93.0,82.4,0,459
+St Josephs Ham.,Hamilton,True,CT Scan,2023,3,92.0,86.9,0,134
+St Josephs Ham.,Hamilton,True,Hip Replacement,2018,3,89.0,86.9,0,392
+St Josephs Ham.,Hamilton,True,Hip Replacement,2019,3,85.0,82.9,0,522
+St Josephs Ham.,Hamilton,True,Hip Replacement,2020,3,89.0,80.3,0,308
+St Josephs Ham.,Hamilton,True,Hip Replacement,2021,3,88.0,77.6,0,343
+St Josephs Ham.,Hamilton,True,Hip Replacement,2022,3,96.0,81.0,0,199
+St Josephs Ham.,Hamilton,True,Hip Replacement,2023,3,96.0,82.5,0,531
+St Josephs Ham.,Hamilton,True,Knee Replacement,2018,3,87.0,77.2,0,409
+St Josephs Ham.,Hamilton,True,Knee Replacement,2019,3,84.0,81.4,0,230
+St Josephs Ham.,Hamilton,True,Knee Replacement,2020,3,105.0,70.3,0,465
+St Josephs Ham.,Hamilton,True,Knee Replacement,2021,3,90.0,79.5,0,198
+St Josephs Ham.,Hamilton,True,Knee Replacement,2022,3,87.0,84.0,0,305
+St Josephs Ham.,Hamilton,True,Knee Replacement,2023,3,102.0,77.3,0,579
+St Josephs Ham.,Hamilton,True,MRI,2018,3,93.0,88.7,0,207
+St Josephs Ham.,Hamilton,True,MRI,2019,3,83.0,85.1,0,194
+St Josephs Ham.,Hamilton,True,MRI,2020,3,96.0,79.8,0,360
+St Josephs Ham.,Hamilton,True,MRI,2021,3,88.0,80.4,0,357
+St Josephs Ham.,Hamilton,True,MRI,2022,3,88.0,79.8,0,154
+St Josephs Ham.,Hamilton,True,MRI,2023,3,92.0,87.4,0,207
+London Health S.,London,True,Cancer Surgery,2018,3,80.0,90.8,1,96
+London Health S.,London,True,Cancer Surgery,2019,3,85.0,87.1,0,457
+London Health S.,London,True,Cancer Surgery,2020,3,91.0,72.8,0,106
+London Health S.,London,True,Cancer Surgery,2021,3,97.0,83.3,0,247
+London Health S.,London,True,Cancer Surgery,2022,3,84.0,89.8,0,480
+London Health S.,London,True,Cancer Surgery,2023,3,88.0,83.7,0,555
+London Health S.,London,True,Cardiac Bypass,2018,3,84.0,87.3,0,442
+London Health S.,London,True,Cardiac Bypass,2019,3,74.0,95.8,1,371
+London Health S.,London,True,Cardiac Bypass,2020,3,106.0,73.1,0,266
+London Health S.,London,True,Cardiac Bypass,2021,3,84.0,85.8,0,306
+London Health S.,London,True,Cardiac Bypass,2022,3,96.0,85.5,0,485
+London Health S.,London,True,Cardiac Bypass,2023,3,88.0,90.2,1,368
+London Health S.,London,True,Cataract Surgery,2018,3,76.0,93.2,1,323
+London Health S.,London,True,Cataract Surgery,2019,3,79.0,86.1,0,586
+London Health S.,London,True,Cataract Surgery,2020,3,106.0,70.2,0,580
+London Health S.,London,True,Cataract Surgery,2021,3,83.0,87.9,0,375
+London Health S.,London,True,Cataract Surgery,2022,3,88.0,88.9,0,121
+London Health S.,London,True,Cataract Surgery,2023,3,77.0,98.1,1,210
+London Health S.,London,True,CT Scan,2018,3,89.0,89.8,0,96
+London Health S.,London,True,CT Scan,2019,3,92.0,89.4,0,576
+London Health S.,London,True,CT Scan,2020,3,102.0,76.7,0,160
+London Health S.,London,True,CT Scan,2021,3,97.0,77.7,0,453
+London Health S.,London,True,CT Scan,2022,3,92.0,88.2,0,347
+London Health S.,London,True,CT Scan,2023,3,79.0,90.0,1,568
+London Health S.,London,True,Hip Replacement,2018,3,81.0,86.7,0,165
+London Health S.,London,True,Hip Replacement,2019,3,94.0,86.8,0,414
+London Health S.,London,True,Hip Replacement,2020,3,113.0,65.7,0,577
+London Health S.,London,True,Hip Replacement,2021,3,90.0,81.2,0,556
+London Health S.,London,True,Hip Replacement,2022,3,93.0,86.5,0,481
+London Health S.,London,True,Hip Replacement,2023,3,90.0,83.7,0,352
+London Health S.,London,True,Knee Replacement,2018,3,94.0,78.9,0,177
+London Health S.,London,True,Knee Replacement,2019,3,90.0,90.7,1,250
+London Health S.,London,True,Knee Replacement,2020,3,89.0,74.0,0,576
+London Health S.,London,True,Knee Replacement,2021,3,100.0,72.4,0,476
+London Health S.,London,True,Knee Replacement,2022,3,91.0,84.5,0,529
+London Health S.,London,True,Knee Replacement,2023,3,80.0,84.1,0,249
+London Health S.,London,True,MRI,2018,3,95.0,86.2,0,118
+London Health S.,London,True,MRI,2019,3,80.0,84.3,0,108
+London Health S.,London,True,MRI,2020,3,100.0,70.9,0,351
+London Health S.,London,True,MRI,2021,3,94.0,85.6,0,318
+London Health S.,London,True,MRI,2022,3,88.0,81.8,0,419
+London Health S.,London,True,MRI,2023,3,91.0,86.2,0,82
+Kingston Health,Kingston,True,Cancer Surgery,2018,3,97.0,82.6,0,225
+Kingston Health,Kingston,True,Cancer Surgery,2019,3,80.0,89.8,0,511
+Kingston Health,Kingston,True,Cancer Surgery,2020,3,107.0,67.3,0,219
+Kingston Health,Kingston,True,Cancer Surgery,2021,3,103.0,77.2,0,140
+Kingston Health,Kingston,True,Cancer Surgery,2022,3,93.0,89.3,0,398
+Kingston Health,Kingston,True,Cancer Surgery,2023,3,98.0,82.9,0,90
+Kingston Health,Kingston,True,Cardiac Bypass,2018,3,83.0,88.6,0,389
+Kingston Health,Kingston,True,Cardiac Bypass,2019,3,86.0,90.2,1,572
+Kingston Health,Kingston,True,Cardiac Bypass,2020,3,108.0,72.3,0,596
+Kingston Health,Kingston,True,Cardiac Bypass,2021,3,84.0,80.6,0,126
+Kingston Health,Kingston,True,Cardiac Bypass,2022,3,89.0,86.4,0,569
+Kingston Health,Kingston,True,Cardiac Bypass,2023,3,91.0,82.0,0,141
+Kingston Health,Kingston,True,Cataract Surgery,2018,3,79.0,100.0,1,168
+Kingston Health,Kingston,True,Cataract Surgery,2019,3,85.0,90.3,1,436
+Kingston Health,Kingston,True,Cataract Surgery,2020,3,105.0,74.5,0,411
+Kingston Health,Kingston,True,Cataract Surgery,2021,3,82.0,82.4,0,542
+Kingston Health,Kingston,True,Cataract Surgery,2022,3,76.0,91.6,1,203
+Kingston Health,Kingston,True,Cataract Surgery,2023,3,74.0,99.0,1,407
+Kingston Health,Kingston,True,CT Scan,2018,3,84.0,90.1,1,116
+Kingston Health,Kingston,True,CT Scan,2019,3,77.0,92.4,1,193
+Kingston Health,Kingston,True,CT Scan,2020,3,109.0,62.1,0,402
+Kingston Health,Kingston,True,CT Scan,2021,3,90.0,79.5,0,119
+Kingston Health,Kingston,True,CT Scan,2022,3,98.0,81.4,0,226
+Kingston Health,Kingston,True,CT Scan,2023,3,88.0,91.9,1,171
+Kingston Health,Kingston,True,Hip Replacement,2018,3,89.0,88.3,0,249
+Kingston Health,Kingston,True,Hip Replacement,2019,3,79.0,88.0,0,501
+Kingston Health,Kingston,True,Hip Replacement,2020,3,109.0,70.8,0,110
+Kingston Health,Kingston,True,Hip Replacement,2021,3,102.0,76.4,0,473
+Kingston Health,Kingston,True,Hip Replacement,2022,3,100.0,79.8,0,161
+Kingston Health,Kingston,True,Hip Replacement,2023,3,92.0,86.6,0,374
+Kingston Health,Kingston,True,Knee Replacement,2018,3,80.0,86.6,0,527
+Kingston Health,Kingston,True,Knee Replacement,2019,3,95.0,77.4,0,405
+Kingston Health,Kingston,True,Knee Replacement,2020,3,96.0,73.7,0,414
+Kingston Health,Kingston,True,Knee Replacement,2021,3,105.0,75.1,0,357
+Kingston Health,Kingston,True,Knee Replacement,2022,3,83.0,81.7,0,271
+Kingston Health,Kingston,True,Knee Replacement,2023,3,92.0,84.6,0,480
+Kingston Health,Kingston,True,MRI,2018,3,94.0,80.8,0,289
+Kingston Health,Kingston,True,MRI,2019,3,88.0,92.9,1,364
+Kingston Health,Kingston,True,MRI,2020,3,93.0,81.1,0,539
+Kingston Health,Kingston,True,MRI,2021,3,86.0,77.0,0,112
+Kingston Health,Kingston,True,MRI,2022,3,93.0,84.5,0,561
+Kingston Health,Kingston,True,MRI,2023,3,89.0,78.9,0,364
+Health Sciences,Hamilton,True,Cancer Surgery,2018,3,89.0,90.4,1,154
+Health Sciences,Hamilton,True,Cancer Surgery,2019,3,75.0,95.7,1,209
+Health Sciences,Hamilton,True,Cancer Surgery,2020,3,92.0,72.1,0,461
+Health Sciences,Hamilton,True,Cancer Surgery,2021,3,82.0,84.9,0,100
+Health Sciences,Hamilton,True,Cancer Surgery,2022,3,89.0,79.6,0,241
+Health Sciences,Hamilton,True,Cancer Surgery,2023,3,82.0,86.7,0,350
+Health Sciences,Hamilton,True,Cardiac Bypass,2018,3,71.0,99.1,1,388
+Health Sciences,Hamilton,True,Cardiac Bypass,2019,3,83.0,83.4,0,106
+Health Sciences,Hamilton,True,Cardiac Bypass,2020,3,98.0,75.8,0,457
+Health Sciences,Hamilton,True,Cardiac Bypass,2021,3,92.0,83.4,0,232
+Health Sciences,Hamilton,True,Cardiac Bypass,2022,3,93.0,80.3,0,580
+Health Sciences,Hamilton,True,Cardiac Bypass,2023,3,80.0,90.4,1,423
+Health Sciences,Hamilton,True,Cataract Surgery,2018,3,76.0,93.2,1,353
+Health Sciences,Hamilton,True,Cataract Surgery,2019,3,85.0,92.8,1,417
+Health Sciences,Hamilton,True,Cataract Surgery,2020,3,83.0,86.9,0,380
+Health Sciences,Hamilton,True,Cataract Surgery,2021,3,95.0,82.0,0,181
+Health Sciences,Hamilton,True,Cataract Surgery,2022,3,88.0,90.0,1,480
+Health Sciences,Hamilton,True,Cataract Surgery,2023,3,75.0,92.9,1,125
+Health Sciences,Hamilton,True,CT Scan,2018,3,85.0,91.0,1,321
+Health Sciences,Hamilton,True,CT Scan,2019,3,83.0,87.4,0,81
+Health Sciences,Hamilton,True,CT Scan,2020,3,85.0,80.1,0,195
+Health Sciences,Hamilton,True,CT Scan,2021,3,87.0,83.4,0,182
+Health Sciences,Hamilton,True,CT Scan,2022,3,88.0,88.8,0,222
+Health Sciences,Hamilton,True,CT Scan,2023,3,82.0,85.7,0,507
+Health Sciences,Hamilton,True,Hip Replacement,2018,3,91.0,86.1,0,88
+Health Sciences,Hamilton,True,Hip Replacement,2019,3,98.0,82.8,0,438
+Health Sciences,Hamilton,True,Hip Replacement,2020,3,115.0,63.9,0,397
+Health Sciences,Hamilton,True,Hip Replacement,2021,3,97.0,80.4,0,190
+Health Sciences,Hamilton,True,Hip Replacement,2022,3,96.0,82.5,0,489
+Health Sciences,Hamilton,True,Hip Replacement,2023,3,86.0,87.8,0,206
+Health Sciences,Hamilton,True,Knee Replacement,2018,3,76.0,90.9,1,91
+Health Sciences,Hamilton,True,Knee Replacement,2019,3,83.0,85.8,0,380
+Health Sciences,Hamilton,True,Knee Replacement,2020,3,106.0,62.8,0,388
+Health Sciences,Hamilton,True,Knee Replacement,2021,3,95.0,80.2,0,386
+Health Sciences,Hamilton,True,Knee Replacement,2022,3,97.0,75.8,0,138
+Health Sciences,Hamilton,True,Knee Replacement,2023,3,88.0,87.8,0,114
+Health Sciences,Hamilton,True,MRI,2018,3,82.0,86.4,0,411
+Health Sciences,Hamilton,True,MRI,2019,3,84.0,83.4,0,238
+Health Sciences,Hamilton,True,MRI,2020,3,97.0,77.5,0,443
+Health Sciences,Hamilton,True,MRI,2021,3,98.0,78.9,0,231
+Health Sciences,Hamilton,True,MRI,2022,3,87.0,88.8,0,329
+Health Sciences,Hamilton,True,MRI,2023,3,80.0,98.8,1,591
+Thunder Bay Reg.,Thunder Bay,False,Cancer Surgery,2018,3,98.0,80.1,0,374
+Thunder Bay Reg.,Thunder Bay,False,Cancer Surgery,2019,3,87.0,81.8,0,450
+Thunder Bay Reg.,Thunder Bay,False,Cancer Surgery,2020,3,114.0,50.7,0,100
+Thunder Bay Reg.,Thunder Bay,False,Cancer Surgery,2021,3,119.0,54.8,0,599
+Thunder Bay Reg.,Thunder Bay,False,Cancer Surgery,2022,3,97.0,77.9,0,413
+Thunder Bay Reg.,Thunder Bay,False,Cancer Surgery,2023,3,109.0,60.8,0,372
+Thunder Bay Reg.,Thunder Bay,False,Cardiac Bypass,2018,3,96.0,69.8,0,460
+Thunder Bay Reg.,Thunder Bay,False,Cardiac Bypass,2019,3,93.0,78.0,0,583
+Thunder Bay Reg.,Thunder Bay,False,Cardiac Bypass,2020,3,96.0,65.9,0,224
+Thunder Bay Reg.,Thunder Bay,False,Cardiac Bypass,2021,3,101.0,67.3,0,107
+Thunder Bay Reg.,Thunder Bay,False,Cardiac Bypass,2022,3,96.0,71.8,0,503
+Thunder Bay Reg.,Thunder Bay,False,Cardiac Bypass,2023,3,110.0,61.5,0,380
+Thunder Bay Reg.,Thunder Bay,False,Cataract Surgery,2018,3,110.0,68.4,0,349
+Thunder Bay Reg.,Thunder Bay,False,Cataract Surgery,2019,3,98.0,69.4,0,440
+Thunder Bay Reg.,Thunder Bay,False,Cataract Surgery,2020,3,121.0,48.7,0,592
+Thunder Bay Reg.,Thunder Bay,False,Cataract Surgery,2021,3,102.0,62.4,0,363
+Thunder Bay Reg.,Thunder Bay,False,Cataract Surgery,2022,3,109.0,68.1,0,235
+Thunder Bay Reg.,Thunder Bay,False,Cataract Surgery,2023,3,95.0,84.5,0,330
+Thunder Bay Reg.,Thunder Bay,False,CT Scan,2018,3,92.0,70.0,0,590
+Thunder Bay Reg.,Thunder Bay,False,CT Scan,2019,3,96.0,69.7,0,361
+Thunder Bay Reg.,Thunder Bay,False,CT Scan,2020,3,104.0,61.4,0,285
+Thunder Bay Reg.,Thunder Bay,False,CT Scan,2021,3,110.0,63.5,0,355
+Thunder Bay Reg.,Thunder Bay,False,CT Scan,2022,3,96.0,74.5,0,574
+Thunder Bay Reg.,Thunder Bay,False,CT Scan,2023,3,99.0,73.1,0,507
+Thunder Bay Reg.,Thunder Bay,False,Hip Replacement,2018,3,101.0,59.6,0,387
+Thunder Bay Reg.,Thunder Bay,False,Hip Replacement,2019,3,107.0,67.6,0,454
+Thunder Bay Reg.,Thunder Bay,False,Hip Replacement,2020,3,124.0,48.6,0,431
+Thunder Bay Reg.,Thunder Bay,False,Hip Replacement,2021,3,107.0,55.4,0,574
+Thunder Bay Reg.,Thunder Bay,False,Hip Replacement,2022,3,111.0,66.3,0,297
+Thunder Bay Reg.,Thunder Bay,False,Hip Replacement,2023,3,107.0,59.5,0,493
+Thunder Bay Reg.,Thunder Bay,False,Knee Replacement,2018,3,100.0,79.4,0,424
+Thunder Bay Reg.,Thunder Bay,False,Knee Replacement,2019,3,108.0,65.7,0,80
+Thunder Bay Reg.,Thunder Bay,False,Knee Replacement,2020,3,112.0,53.8,0,148
+Thunder Bay Reg.,Thunder Bay,False,Knee Replacement,2021,3,119.0,50.1,0,299
+Thunder Bay Reg.,Thunder Bay,False,Knee Replacement,2022,3,102.0,64.1,0,240
+Thunder Bay Reg.,Thunder Bay,False,Knee Replacement,2023,3,109.0,57.3,0,238
+Thunder Bay Reg.,Thunder Bay,False,MRI,2018,3,97.0,72.4,0,573
+Thunder Bay Reg.,Thunder Bay,False,MRI,2019,3,107.0,72.1,0,98
+Thunder Bay Reg.,Thunder Bay,False,MRI,2020,3,118.0,57.6,0,444
+Thunder Bay Reg.,Thunder Bay,False,MRI,2021,3,111.0,65.2,0,423
+Thunder Bay Reg.,Thunder Bay,False,MRI,2022,3,96.0,71.9,0,144
+Thunder Bay Reg.,Thunder Bay,False,MRI,2023,3,106.0,60.0,0,222
+Sault Area Hospi.,Sault Ste Marie,False,Cancer Surgery,2018,3,103.0,65.7,0,384
+Sault Area Hospi.,Sault Ste Marie,False,Cancer Surgery,2019,3,92.0,81.3,0,370
+Sault Area Hospi.,Sault Ste Marie,False,Cancer Surgery,2020,3,107.0,65.9,0,82
+Sault Area Hospi.,Sault Ste Marie,False,Cancer Surgery,2021,3,102.0,69.1,0,407
+Sault Area Hospi.,Sault Ste Marie,False,Cancer Surgery,2022,3,104.0,53.0,0,233
+Sault Area Hospi.,Sault Ste Marie,False,Cancer Surgery,2023,3,82.0,83.7,0,212
+Sault Area Hospi.,Sault Ste Marie,False,Cardiac Bypass,2018,3,94.0,78.7,0,122
+Sault Area Hospi.,Sault Ste Marie,False,Cardiac Bypass,2019,3,115.0,60.1,0,405
+Sault Area Hospi.,Sault Ste Marie,False,Cardiac Bypass,2020,3,110.0,60.1,0,100
+Sault Area Hospi.,Sault Ste Marie,False,Cardiac Bypass,2021,3,96.0,67.9,0,415
+Sault Area Hospi.,Sault Ste Marie,False,Cardiac Bypass,2022,3,94.0,71.6,0,130
+Sault Area Hospi.,Sault Ste Marie,False,Cardiac Bypass,2023,3,91.0,70.7,0,220
+Sault Area Hospi.,Sault Ste Marie,False,Cataract Surgery,2018,3,102.0,68.5,0,452
+Sault Area Hospi.,Sault Ste Marie,False,Cataract Surgery,2019,3,95.0,72.3,0,235
+Sault Area Hospi.,Sault Ste Marie,False,Cataract Surgery,2020,3,123.0,46.5,0,81
+Sault Area Hospi.,Sault Ste Marie,False,Cataract Surgery,2021,3,98.0,67.4,0,169
+Sault Area Hospi.,Sault Ste Marie,False,Cataract Surgery,2022,3,105.0,69.2,0,118
+Sault Area Hospi.,Sault Ste Marie,False,Cataract Surgery,2023,3,100.0,71.0,0,391
+Sault Area Hospi.,Sault Ste Marie,False,CT Scan,2018,3,110.0,68.6,0,163
+Sault Area Hospi.,Sault Ste Marie,False,CT Scan,2019,3,95.0,76.2,0,464
+Sault Area Hospi.,Sault Ste Marie,False,CT Scan,2020,3,101.0,59.9,0,220
+Sault Area Hospi.,Sault Ste Marie,False,CT Scan,2021,3,120.0,50.3,0,197
+Sault Area Hospi.,Sault Ste Marie,False,CT Scan,2022,3,94.0,84.3,0,89
+Sault Area Hospi.,Sault Ste Marie,False,CT Scan,2023,3,91.0,73.5,0,231
+Sault Area Hospi.,Sault Ste Marie,False,Hip Replacement,2018,3,117.0,58.5,0,129
+Sault Area Hospi.,Sault Ste Marie,False,Hip Replacement,2019,3,112.0,62.8,0,139
+Sault Area Hospi.,Sault Ste Marie,False,Hip Replacement,2020,3,118.0,57.2,0,518
+Sault Area Hospi.,Sault Ste Marie,False,Hip Replacement,2021,3,110.0,61.4,0,562
+Sault Area Hospi.,Sault Ste Marie,False,Hip Replacement,2022,3,108.0,62.5,0,511
+Sault Area Hospi.,Sault Ste Marie,False,Hip Replacement,2023,3,96.0,71.6,0,498
+Sault Area Hospi.,Sault Ste Marie,False,Knee Replacement,2018,3,95.0,70.8,0,156
+Sault Area Hospi.,Sault Ste Marie,False,Knee Replacement,2019,3,95.0,79.3,0,333
+Sault Area Hospi.,Sault Ste Marie,False,Knee Replacement,2020,3,122.0,47.4,0,453
+Sault Area Hospi.,Sault Ste Marie,False,Knee Replacement,2021,3,114.0,52.9,0,538
+Sault Area Hospi.,Sault Ste Marie,False,Knee Replacement,2022,3,108.0,63.8,0,246
+Sault Area Hospi.,Sault Ste Marie,False,Knee Replacement,2023,3,114.0,60.8,0,115
+Sault Area Hospi.,Sault Ste Marie,False,MRI,2018,3,99.0,65.5,0,504
+Sault Area Hospi.,Sault Ste Marie,False,MRI,2019,3,108.0,63.9,0,596
+Sault Area Hospi.,Sault Ste Marie,False,MRI,2020,3,108.0,55.2,0,146
+Sault Area Hospi.,Sault Ste Marie,False,MRI,2021,3,112.0,57.4,0,460
+Sault Area Hospi.,Sault Ste Marie,False,MRI,2022,3,101.0,57.9,0,251
+Sault Area Hospi.,Sault Ste Marie,False,MRI,2023,3,107.0,66.9,0,288
+North Bay Regio.,North Bay,False,Cancer Surgery,2018,3,97.0,70.9,0,521
+North Bay Regio.,North Bay,False,Cancer Surgery,2019,3,108.0,72.7,0,556
+North Bay Regio.,North Bay,False,Cancer Surgery,2020,3,118.0,50.1,0,525
+North Bay Regio.,North Bay,False,Cancer Surgery,2021,3,102.0,66.8,0,134
+North Bay Regio.,North Bay,False,Cancer Surgery,2022,3,110.0,63.6,0,594
+North Bay Regio.,North Bay,False,Cancer Surgery,2023,3,103.0,77.4,0,316
+North Bay Regio.,North Bay,False,Cardiac Bypass,2018,3,108.0,65.5,0,163
+North Bay Regio.,North Bay,False,Cardiac Bypass,2019,3,98.0,75.7,0,535
+North Bay Regio.,North Bay,False,Cardiac Bypass,2020,3,124.0,51.8,0,579
+North Bay Regio.,North Bay,False,Cardiac Bypass,2021,3,110.0,64.2,0,560
+North Bay Regio.,North Bay,False,Cardiac Bypass,2022,3,104.0,62.9,0,528
+North Bay Regio.,North Bay,False,Cardiac Bypass,2023,3,103.0,62.0,0,259
+North Bay Regio.,North Bay,False,Cataract Surgery,2018,3,105.0,74.2,0,341
+North Bay Regio.,North Bay,False,Cataract Surgery,2019,3,106.0,73.4,0,222
+North Bay Regio.,North Bay,False,Cataract Surgery,2020,3,108.0,58.5,0,295
+North Bay Regio.,North Bay,False,Cataract Surgery,2021,3,106.0,64.4,0,541
+North Bay Regio.,North Bay,False,Cataract Surgery,2022,3,94.0,73.4,0,152
+North Bay Regio.,North Bay,False,Cataract Surgery,2023,3,93.0,75.6,0,209
+North Bay Regio.,North Bay,False,CT Scan,2018,3,97.0,76.3,0,332
+North Bay Regio.,North Bay,False,CT Scan,2019,3,105.0,73.7,0,243
+North Bay Regio.,North Bay,False,CT Scan,2020,3,126.0,50.9,0,317
+North Bay Regio.,North Bay,False,CT Scan,2021,3,98.0,65.8,0,562
+North Bay Regio.,North Bay,False,CT Scan,2022,3,104.0,62.6,0,471
+North Bay Regio.,North Bay,False,CT Scan,2023,3,101.0,69.2,0,158
+North Bay Regio.,North Bay,False,Hip Replacement,2018,3,114.0,66.3,0,171
+North Bay Regio.,North Bay,False,Hip Replacement,2019,3,97.0,70.2,0,526
+North Bay Regio.,North Bay,False,Hip Replacement,2020,3,126.0,43.7,0,139
+North Bay Regio.,North Bay,False,Hip Replacement,2021,3,105.0,61.6,0,366
+North Bay Regio.,North Bay,False,Hip Replacement,2022,3,121.0,58.9,0,332
+North Bay Regio.,North Bay,False,Hip Replacement,2023,3,108.0,64.6,0,542
+North Bay Regio.,North Bay,False,Knee Replacement,2018,3,112.0,61.3,0,339
+North Bay Regio.,North Bay,False,Knee Replacement,2019,3,108.0,64.2,0,180
+North Bay Regio.,North Bay,False,Knee Replacement,2020,3,128.0,40.8,0,203
+North Bay Regio.,North Bay,False,Knee Replacement,2021,3,115.0,62.5,0,142
+North Bay Regio.,North Bay,False,Knee Replacement,2022,3,113.0,59.4,0,562
+North Bay Regio.,North Bay,False,Knee Replacement,2023,3,96.0,72.0,0,171
+North Bay Regio.,North Bay,False,MRI,2018,3,106.0,61.1,0,589
+North Bay Regio.,North Bay,False,MRI,2019,3,96.0,69.6,0,484
+North Bay Regio.,North Bay,False,MRI,2020,3,118.0,50.7,0,144
+North Bay Regio.,North Bay,False,MRI,2021,3,103.0,63.4,0,321
+North Bay Regio.,North Bay,False,MRI,2022,3,101.0,58.8,0,243
+North Bay Regio.,North Bay,False,MRI,2023,3,97.0,71.1,0,576
+Timmins District,Timmins,False,Cancer Surgery,2018,3,117.0,59.2,0,262
+Timmins District,Timmins,False,Cancer Surgery,2019,3,82.0,84.4,0,589
+Timmins District,Timmins,False,Cancer Surgery,2020,3,120.0,53.3,0,306
+Timmins District,Timmins,False,Cancer Surgery,2021,3,108.0,57.7,0,515
+Timmins District,Timmins,False,Cancer Surgery,2022,3,113.0,66.2,0,184
+Timmins District,Timmins,False,Cancer Surgery,2023,3,88.0,76.2,0,199
+Timmins District,Timmins,False,Cardiac Bypass,2018,3,94.0,76.9,0,108
+Timmins District,Timmins,False,Cardiac Bypass,2019,3,101.0,64.3,0,321
+Timmins District,Timmins,False,Cardiac Bypass,2020,3,106.0,67.9,0,279
+Timmins District,Timmins,False,Cardiac Bypass,2021,3,105.0,58.4,0,252
+Timmins District,Timmins,False,Cardiac Bypass,2022,3,101.0,69.8,0,180
+Timmins District,Timmins,False,Cardiac Bypass,2023,3,96.0,64.9,0,279
+Timmins District,Timmins,False,Cataract Surgery,2018,3,89.0,74.4,0,487
+Timmins District,Timmins,False,Cataract Surgery,2019,3,92.0,71.3,0,96
+Timmins District,Timmins,False,Cataract Surgery,2020,3,114.0,49.9,0,478
+Timmins District,Timmins,False,Cataract Surgery,2021,3,120.0,59.2,0,578
+Timmins District,Timmins,False,Cataract Surgery,2022,3,95.0,67.3,0,429
+Timmins District,Timmins,False,Cataract Surgery,2023,3,108.0,69.4,0,599
+Timmins District,Timmins,False,CT Scan,2018,3,96.0,78.0,0,542
+Timmins District,Timmins,False,CT Scan,2019,3,96.0,68.5,0,461
+Timmins District,Timmins,False,CT Scan,2020,3,123.0,55.7,0,198
+Timmins District,Timmins,False,CT Scan,2021,3,97.0,63.3,0,449
+Timmins District,Timmins,False,CT Scan,2022,3,105.0,64.3,0,453
+Timmins District,Timmins,False,CT Scan,2023,3,102.0,68.8,0,239
+Timmins District,Timmins,False,Hip Replacement,2018,3,104.0,70.5,0,352
+Timmins District,Timmins,False,Hip Replacement,2019,3,109.0,70.6,0,262
+Timmins District,Timmins,False,Hip Replacement,2020,3,119.0,49.6,0,493
+Timmins District,Timmins,False,Hip Replacement,2021,3,125.0,53.3,0,251
+Timmins District,Timmins,False,Hip Replacement,2022,3,109.0,64.3,0,201
+Timmins District,Timmins,False,Hip Replacement,2023,3,113.0,64.0,0,118
+Timmins District,Timmins,False,Knee Replacement,2018,3,100.0,70.0,0,381
+Timmins District,Timmins,False,Knee Replacement,2019,3,113.0,61.1,0,315
+Timmins District,Timmins,False,Knee Replacement,2020,3,124.0,49.1,0,424
+Timmins District,Timmins,False,Knee Replacement,2021,3,124.0,54.8,0,545
+Timmins District,Timmins,False,Knee Replacement,2022,3,97.0,63.9,0,542
+Timmins District,Timmins,False,Knee Replacement,2023,3,109.0,59.9,0,167
+Timmins District,Timmins,False,MRI,2018,3,112.0,63.2,0,432
+Timmins District,Timmins,False,MRI,2019,3,110.0,59.4,0,98
+Timmins District,Timmins,False,MRI,2020,3,108.0,60.0,0,215
+Timmins District,Timmins,False,MRI,2021,3,107.0,62.2,0,208
+Timmins District,Timmins,False,MRI,2022,3,97.0,69.2,0,562
+Timmins District,Timmins,False,MRI,2023,3,99.0,70.0,0,570
+Kenora District,Kenora,False,Cancer Surgery,2018,3,100.0,77.6,0,145
+Kenora District,Kenora,False,Cancer Surgery,2019,3,100.0,66.9,0,92
+Kenora District,Kenora,False,Cancer Surgery,2020,3,112.0,65.8,0,393
+Kenora District,Kenora,False,Cancer Surgery,2021,3,85.0,78.8,0,288
+Kenora District,Kenora,False,Cancer Surgery,2022,3,104.0,72.6,0,149
+Kenora District,Kenora,False,Cancer Surgery,2023,3,102.0,76.7,0,180
+Kenora District,Kenora,False,Cardiac Bypass,2018,3,105.0,68.3,0,306
+Kenora District,Kenora,False,Cardiac Bypass,2019,3,97.0,65.4,0,548
+Kenora District,Kenora,False,Cardiac Bypass,2020,3,113.0,52.5,0,595
+Kenora District,Kenora,False,Cardiac Bypass,2021,3,114.0,54.9,0,594
+Kenora District,Kenora,False,Cardiac Bypass,2022,3,104.0,67.8,0,241
+Kenora District,Kenora,False,Cardiac Bypass,2023,3,107.0,64.9,0,238
+Kenora District,Kenora,False,Cataract Surgery,2018,3,107.0,67.0,0,155
+Kenora District,Kenora,False,Cataract Surgery,2019,3,101.0,76.3,0,196
+Kenora District,Kenora,False,Cataract Surgery,2020,3,109.0,58.5,0,429
+Kenora District,Kenora,False,Cataract Surgery,2021,3,94.0,73.9,0,262
+Kenora District,Kenora,False,Cataract Surgery,2022,3,95.0,66.2,0,555
+Kenora District,Kenora,False,Cataract Surgery,2023,3,111.0,64.1,0,197
+Kenora District,Kenora,False,CT Scan,2018,3,107.0,65.9,0,126
+Kenora District,Kenora,False,CT Scan,2019,3,82.0,84.1,0,157
+Kenora District,Kenora,False,CT Scan,2020,3,117.0,62.1,0,584
+Kenora District,Kenora,False,CT Scan,2021,3,103.0,69.3,0,217
+Kenora District,Kenora,False,CT Scan,2022,3,97.0,69.8,0,505
+Kenora District,Kenora,False,CT Scan,2023,3,117.0,60.4,0,428
+Kenora District,Kenora,False,Hip Replacement,2018,3,110.0,57.6,0,340
+Kenora District,Kenora,False,Hip Replacement,2019,3,122.0,50.2,0,339
+Kenora District,Kenora,False,Hip Replacement,2020,3,105.0,51.6,0,261
+Kenora District,Kenora,False,Hip Replacement,2021,3,104.0,58.9,0,443
+Kenora District,Kenora,False,Hip Replacement,2022,3,108.0,65.4,0,487
+Kenora District,Kenora,False,Hip Replacement,2023,3,98.0,61.6,0,493
+Kenora District,Kenora,False,Knee Replacement,2018,3,110.0,70.3,0,479
+Kenora District,Kenora,False,Knee Replacement,2019,3,113.0,61.8,0,284
+Kenora District,Kenora,False,Knee Replacement,2020,3,130.0,45.7,0,329
+Kenora District,Kenora,False,Knee Replacement,2021,3,116.0,54.1,0,275
+Kenora District,Kenora,False,Knee Replacement,2022,3,94.0,68.4,0,478
+Kenora District,Kenora,False,Knee Replacement,2023,3,99.0,59.6,0,282
+Kenora District,Kenora,False,MRI,2018,3,110.0,69.4,0,505
+Kenora District,Kenora,False,MRI,2019,3,105.0,73.1,0,221
+Kenora District,Kenora,False,MRI,2020,3,104.0,58.8,0,384
+Kenora District,Kenora,False,MRI,2021,3,114.0,53.5,0,463
+Kenora District,Kenora,False,MRI,2022,3,112.0,61.1,0,368
+Kenora District,Kenora,False,MRI,2023,3,104.0,67.0,0,433
