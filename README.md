@@ -89,3 +89,9 @@ python analysis.py             # full analysis with cleaning, rankings, recommen
 
 ## Data Note
 Patient-level wait time data is classified as personal health information under PHIPA and is not publicly releasable by Ontario Health. This project uses simulated data anchored to published Ontario Health aggregate wait time statistics. The analytical methodology reflects the approach used in real health system performance analysis roles.
+
+---
+
+# Ontario Surgical Wait Times Dashboard
+
+Live dashboard: https://public.tableau.com/app/profile/ikenna.nwogu/viz/OntarioSurgicalWaitTimesHealthAnalyticsDashboard/ONTARIOSURGICALWAITTIMES-HEALTHANALYTICSDASHBOARD
