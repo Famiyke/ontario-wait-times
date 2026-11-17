@@ -1,0 +1,48 @@
+name: Validate portfolio Python workflow
+on:
+  push:
+    paths:
+      - '**.py'
+      - '.github/workflows/validate-python.yml'
+  workflow_dispatch:
+jobs:
+  demo-smoke-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install pandas numpy openpyxl
+      - name: Compile Python files
+        run: python -m compileall -q .
+      - name: Generate and analyze demonstration data
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -f simulate_cihi_data.py ]]; then
+            python simulate_cihi_data.py
+            python 01_clean_explore.py
+            python 02_analysis.py
+          elif [[ -f simulate_ccdss_data.py ]]; then
+            python simulate_ccdss_data.py
+            python 01_clean_explore.py
+            python 02_analysis.py
+          elif [[ -f simulate_nhex_data.py ]]; then
+            python simulate_nhex_data.py
+            python analysis.py
+          elif [[ -f simulate_waittimes.py ]]; then
+            python simulate_waittimes.py
+            python analysis.py
+          elif [[ -f simulate_cchs.py ]]; then
+            python simulate_cchs.py
+            python analysis.py
+          elif [[ -f simulate_manitoba.py ]]; then
+            python simulate_manitoba.py
+            python analysis.py
+          else
+            echo "No supported demo entry point" >&2
+            exit 1
+          fi
