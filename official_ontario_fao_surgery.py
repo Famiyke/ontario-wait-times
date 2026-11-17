@@ -91,9 +91,9 @@ This analysis reproduces **real published aggregate surgery data**, using the Fi
 
 | Indicator | 2019 | 2022 | Source |
 |---|---:|---:|---|
-| Surgeries performed, annual count | {surgeries[0]:,} | {surgeries[3]:,} | FAO Table A-1 |
+| Surgeries performed, annual count | {int(surgeries[0]):,} | {int(surgeries[3]):,} | FAO Table A-1 |
 | FAO estimated average surgical waiting time, months | {waits[0]:.1f} | {waits[3]:.1f} | FAO Table A-3 |
-| Average surgical waitlist, persons | {by_table['A-2']['Total'][0]:,} | {by_table['A-2']['Total'][3]:,} | FAO Table A-2 |
+| Average surgical waitlist, persons | {int(by_table['A-2']['Total'][0]):,} | {int(by_table['A-2']['Total'][3]):,} | FAO Table A-2 |
 
 The 2022 average waitlist is based on January to September only. The FAO wait-time measure is an **estimate based on waitlist size and surgical throughput**, NOT a direct distribution of patient-level Wait 2 times.
 
