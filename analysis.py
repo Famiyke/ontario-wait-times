@@ -4,6 +4,10 @@ Data Detective → Programmer → Storyteller → Consultant
 Ontario Surgical Wait Time Analysis
 """
 
+# PORTFOLIO DATA NOTICE: All computed findings below use simulated/generated
+# analytical records, not verified official Canadian statistics. Numeric outputs
+# illustrate methods only; any program recommendations require source validation.
+
 import pandas as pd
 import numpy as np
 
@@ -262,35 +266,17 @@ print(f"\n  Hospitals meeting 90% target: {above_90} of {len(hosp)}")
 print(f"  Hospitals below 90% target:  {below_90} of {len(hosp)}")
 
 # ── Recommendations ───────────────────────────────────────────────
-print(f"\n{'─'*62}")
-print("STRATEGIC RECOMMENDATIONS")
-print(f"{'─'*62}")
-print(f"""
-  1. NORTHERN ACCESS GAP
-     Rural and northern hospitals average {urban_compliance - rural_compliance:.0f}pp
-     lower compliance than urban hospitals. Rural patients
-     wait {rural_wait - urban_wait:.0f} more days on average. Ontario should fund
-     mobile surgical teams and telehealth pre-op
-     consultation to reduce unnecessary travel and delay.
+print("\\nILLUSTRATIVE INTERPRETATION AND NEXT STEPS")
+print("-" * 62)
+print("""
+These results come from a generated portfolio dataset. They are not
+verified Canadian population or health-system estimates.
 
-  2. WIDESPREAD TARGET FAILURE
-     {below_90} of {len(hosp)} hospitals fall below the 90% provincial
-     target. Ontario Health should publish real-time
-     hospital-level compliance dashboards to create
-     accountability and help patients make informed
-     referral decisions.
-
-  3. COVID RECOVERY — NEAR-COMPLETE BUT UNEVEN
-     The province-wide compliance drop of {drop:.0f}pp in 2020
-     has nearly recovered — the gap is now {recovery:.1f}pp.
-     However, northern hospitals are recovering more slowly.
-     A targeted backlog reduction program with
-     hospital-specific timelines is still needed.
-
-  4. VOLUME REDISTRIBUTION
-     High-volume urban hospitals are at capacity.
-     Structured referral protocols directing stable
-     Priority 4 patients to lower-volume rural
-     facilities would reduce waits system-wide.
+Potential next steps for a real-world study:
+1. Obtain and validate authoritative source data and definitions.
+2. Recalculate differences, including denominators and uncertainty.
+3. Work with clinical, community or operational partners to assess
+   feasibility and avoid treating associations as causal effects.
+4. Treat cost differences and savings as sensitivity-tested scenarios,
+   not realized outcomes or established policy recommendations.
 """)
-print(sep)
