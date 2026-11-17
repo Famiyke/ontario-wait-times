@@ -8,9 +8,9 @@ This analysis reproduces **real published aggregate surgery data**, using the Fi
 
 | Indicator | 2019 | 2022 | Source |
 |---|---:|---:|---|
-| Surgeries performed, annual count | 649,299.0 | 555,487.0 | FAO Table A-1 |
+| Surgeries performed, annual count | 649,299 | 555,487 | FAO Table A-1 |
 | FAO estimated average surgical waiting time, months | 3.7 | 5.5 | FAO Table A-3 |
-| Average surgical waitlist, persons | 199,890.0 | 252,986.0 | FAO Table A-2 |
+| Average surgical waitlist, persons | 199,890 | 252,986 | FAO Table A-2 |
 
 The 2022 average waitlist is based on January to September only. The FAO wait-time measure is an **estimate based on waitlist size and surgical throughput**, NOT a direct distribution of patient-level Wait 2 times.
 
