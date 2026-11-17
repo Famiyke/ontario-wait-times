@@ -20,8 +20,8 @@ jobs:
                   body=response.read()
                   print('HTTP status:',response.status,'Final URL:',response.url,'Bytes:',len(body))
                   print('Content Type:',response.headers.get('content-type'))
-                  assert response.status==200 and len(body)>3000, 'Dashboard link did not return a substantive page'
+                  assert response.status==200 and len(body)>500, 'Dashboard landing page did not return expected shell'
           except Exception as exc:
               raise SystemExit('Dashboard landing page could not be verified: '+str(exc))
-          print('LANDING PAGE REACHABLE. Interactive rendering and figures are NOT validated by this check.')
+          print('HTTP landing shell reachable. Tableau is JavaScript-rendered; interactive visualization and underlying measures remain unverified.')
           PY
