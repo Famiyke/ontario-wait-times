@@ -1,5 +1,12 @@
 # Project 4: Ontario Surgical Wait Time Analysis
 
+## Reviewed interactive dashboard (no Power BI login required)
+
+[**Open the Real-data Ontario surgery and waitlist visualization**](https://famiyke.github.io/health-data-portfolio/dashboards/ontario.html)
+
+This version uses official FAO tables based on Ontario Health data, without the fictional hospital rankings. The web dashboard is distinct from the older PBIX or Tableau visualization. Those legacy files were **not edited or republished** and should not be used as validated outputs.
+
+
 ## Primary official-source study: Ontario surgery activity and waitlists (2019–2022)
 
 This repository now includes a reproducible **real-data analysis** of official public aggregate tables from the **Financial Accountability Office of Ontario**, based on surgical activity reported by Ontario Health. The source report was published in 2023.
