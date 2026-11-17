@@ -1,12 +1,8 @@
-"""
-Project 4 – simulate_waittimes.py
-Generates representative Ontario surgical wait time data
-anchored to published Ontario Health statistics.
-Real data: https://www.ontariohealth.ca/system-performance/wait-times
+"""Generate illustrative Ontario surgical wait-time observations.
 
-Urban high-performing hospitals (Toronto, Ottawa core) average 90%+ compliance.
-Rural/Northern hospitals average 60-65% compliance.
-COVID-19 impact modelled for 2020-2021.
+All facility performance parameters, rankings and wait-time differences are
+fabricated for training. No real Ontario hospital performance is reported.
+Reference: https://www.ontariohealth.ca/system/reporting/wait-times/wait-times-results
 """
 
 import pandas as pd
@@ -15,12 +11,12 @@ import numpy as np
 np.random.seed(42)
 
 HOSPITALS = {
-    # Urban high performers — meet 90% target on average
+    # Fictional high-performance scenario sites
     'Toronto General':    {'region': 'Toronto',          'urban': True,  'performance': 'high'},
     'Sunnybrook HSC':     {'region': 'Toronto',          'urban': True,  'performance': 'high'},
     'Mount Sinai Hos.':   {'region': 'Toronto',          'urban': True,  'performance': 'high'},
     'Ottawa Civic':       {'region': 'Ottawa',           'urban': True,  'performance': 'high'},
-    # Urban medium performers — below 90% on average
+    # Fictional medium-performance scenario sites
     'Ottawa General':     {'region': 'Ottawa',           'urban': True,  'performance': 'medium'},
     'Hamilton General':   {'region': 'Hamilton',         'urban': True,  'performance': 'medium'},
     'St Josephs Ham.':    {'region': 'Hamilton',         'urban': True,  'performance': 'medium'},
