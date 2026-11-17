@@ -1,5 +1,6 @@
 # Project 4: Ontario Surgical Wait Time Analysis
 
+> **PROJECT VALIDATION STATUS:** The Python demonstration workflow has passed GitHub Actions. Generated model parameters and subgroup comparisons are synthetic. No synthetic values should be described as verified official health-system statistics. See [SOURCE_VALIDATION.md](SOURCE_VALIDATION.md) for the evidence boundary.\n\n
 > **DATA PROVENANCE:** This portfolio project uses simulated records informed by named Canadian public sources. All generated statistics, rankings, demographic differences, and savings models are illustrative rather than verified official estimates. Recommendations are hypothetical scenarios, not observed effects.
 
 **Domain:** Health System Performance / Access to Care
@@ -35,25 +36,19 @@ python analysis.py             # full analysis with cleaning, rankings, recommen
 
 | Hat | What I Did |
 |-----|-----------|
-| Data Detective | Profiled Ontario Health wait time records, checked for missing values and out-of-range compliance rates, handled "LV" (low volume) suppression codes, validated priority level coding across all hospitals and procedures |
+| Data Detective | Profiled generated wait-time records, checked missing values and modeled reporting fields |
 | SQL/Python Programmer | Ranked hospitals by compliance, measured target achievement rates, identified worst-performing procedure-region combinations, quantified the urban-rural gap |
 | Dashboard Architect | Built Tableau Public dashboard with compliance heat map, hospital ranking, year-over-year trend with COVID annotation, and below-90% filter |
 | Data Storyteller | Produced a patient access brief for a regional health planning team |
-| Strategic Consultant | Recommended capacity rebalancing and mobile surgical team deployment for northern Ontario |
+| Scenario interpretation | Identified hypothetical access questions requiring real source data and health-system review |
 
 ---
 
-## Live Dashboard
-[Ontario Surgical Wait Times — Health Analytics Dashboard](https://public.tableau.com/app/profile/ikenna.nwogu/viz/OntarioSurgicalWaitTimesHealthAnalyticsDashboard/ONTARIOSURGICALWAITTIMES-HEALTHANALYTICSDASHBOARD)
+## Tableau demonstration status
 
-**Views included:**
-- KPI cards: Hospitals meeting 90% target, average compliance rate, wait time change 2018 vs 2023
-- Target compliance heat map by hospital and procedure
-- Hospital compliance ranking — Priority 3
-- Median wait time trend 2018–2023 with COVID-19 spike annotation
-- Hospitals below 90% compliance target
+The published Tableau visualization is a **historical synthetic-data demonstration**. It shows names resembling actual hospitals and model-generated rankings without an adequate visible simulation banner. Do not use it to judge actual hospital performance.
 
----
+[View the demonstration disclosure and status](Dashboard.md). Direct presentation as a validated Ontario Health report is on hold until the Tableau workbook is relabelled and republished.
 
 ## Illustrative analytical outputs
 
@@ -79,7 +74,7 @@ Use the simulated findings to demonstrate analytical methods, not to rank actual
 
 The 15-hospital dataset is simulated. Rankings, wait-time compliance, the urban-rural gap, and COVID effects should not be attributed to real facilities. Confirm Ontario Health definitions and benchmark years before interpreting source data.
 
-Patient-level wait time data is classified as personal health information under PHIPA and is not publicly releasable by Ontario Health. This project uses simulated data anchored to published Ontario Health aggregate wait time statistics. The analytical methodology reflects the approach used in real health system performance analysis roles.
+Patient-level wait time data is classified as personal health information under PHIPA and is not publicly releasable by Ontario Health. This project uses modeled records and assumptions that were not independently reconciled with Ontario Health hospital data. The analytical methodology reflects the approach used in real health system performance analysis roles.
 
 
 
@@ -91,5 +86,5 @@ Patient-level wait time data is classified as personal health information under 
 
 **Environment:** Python 3 with `pandas` and `numpy` installed. If working with the Excel files, install `openpyxl` as needed. Run the simulation script before the analysis commands shown above.
 
-**Important:** The scripts are designed for the generated datasets and expected column names. Downloading a public government table does **not** guarantee that it will run with these scripts unchanged; a schema-mapping and validation step is required for authentic external data. The repository has undergone a static documentation and code-reference audit, but a fresh environment execution and independent reconciliation with official datasets have not yet been completed.
+**Important:** The scripts are designed for the generated datasets and expected column names. Downloading a public government table does **not** guarantee that it will run with these scripts unchanged; a schema-mapping and validation step is required for authentic external data. The generated-data Python workflow passed a clean GitHub Actions execution test. Independent reconciliation against authoritative population or healthcare source files remains incomplete.
 
