@@ -1,8 +1,10 @@
 # Project 4: Ontario Surgical Wait Time Analysis
 
+> **DATA PROVENANCE:** This portfolio project uses simulated records informed by named Canadian public sources. All generated statistics, rankings, demographic differences, and savings models are illustrative rather than verified official estimates. Recommendations are hypothetical scenarios, not observed effects.
+
 **Domain:** Health System Performance / Access to Care
 **Tools:** Python · SQL · Tableau
-**Real Data Source:** Ontario Health — Wait Times Results
+**Public reference source (distinct from simulated analysis data):** Ontario Health — Wait Times Results
 **Download:** https://www.ontariohealth.ca/system/reporting/wait-times/wait-times-results
 (Free — filter by procedure and click "Download CSV")
 
@@ -53,7 +55,7 @@ python analysis.py             # full analysis with cleaning, rankings, recommen
 
 ---
 
-## Key Findings
+## Illustrative Findings From Generated Data
 
 1. **Northern access gap.** Hip and knee replacement wait times in northern Ontario average 31% longer than in Toronto for the same Priority 3 level. Rural hospitals average 23 percentage points lower compliance than urban hospitals.
 
@@ -65,7 +67,7 @@ python analysis.py             # full analysis with cleaning, rankings, recommen
 
 ---
 
-## Strategic Recommendations
+## Hypothetical Recommendations
 
 1. **Deploy mobile surgical teams to northern Ontario.** Kenora, Timmins, and North Bay show the lowest compliance rates. Quarterly mobile orthopaedic teams would reduce the northern access gap without requiring permanent facility investment.
 
@@ -87,7 +89,10 @@ python analysis.py             # full analysis with cleaning, rankings, recommen
 
 ---
 
-## Data Note
+## Data Provenance and Limitations
+
+The 15-hospital dataset is simulated. Rankings, wait-time compliance, the urban-rural gap, and COVID effects should not be attributed to real facilities. Confirm Ontario Health definitions and benchmark years before interpreting source data.
+
 Patient-level wait time data is classified as personal health information under PHIPA and is not publicly releasable by Ontario Health. This project uses simulated data anchored to published Ontario Health aggregate wait time statistics. The analytical methodology reflects the approach used in real health system performance analysis roles.
 
 
