@@ -1,0 +1,27 @@
+name: Check published Tableau link
+on:
+  push:
+    paths: ['.github/workflows/check-tableau.yml']
+  workflow_dispatch:
+jobs:
+  check-link:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch dashboard landing page
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request
+          url='https://public.tableau.com/app/profile/ikenna.nwogu/viz/OntarioSurgicalWaitTimesHealthAnalyticsDashboard/ONTARIOSURGICALWAITTIMES-HEALTHANALYTICSDASHBOARD'
+          req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+          try:
+              with urllib.request.urlopen(req,timeout=25) as response:
+                  body=response.read()
+                  print('HTTP status:',response.status,'Final URL:',response.url,'Bytes:',len(body))
+                  print('Content Type:',response.headers.get('content-type'))
+                  assert response.status==200 and len(body)>3000, 'Dashboard link did not return a substantive page'
+          except Exception as exc:
+              raise SystemExit('Dashboard landing page could not be verified: '+str(exc))
+          print('LANDING PAGE REACHABLE. Interactive rendering and figures are NOT validated by this check.')
+          PY
