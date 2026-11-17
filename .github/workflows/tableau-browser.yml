@@ -1,0 +1,45 @@
+name: Browser-check Tableau dashboard
+on:
+  push:
+    paths:
+      - '.github/workflows/tableau-browser.yml'
+  workflow_dispatch:
+jobs:
+  tableau-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install playwright
+      - run: python -m playwright install chromium --with-deps
+      - name: Inspect browser-rendered dashboard
+        run: |
+          python - <<'PY'
+          from playwright.sync_api import sync_playwright
+          url='https://public.tableau.com/app/profile/ikenna.nwogu/viz/OntarioSurgicalWaitTimesHealthAnalyticsDashboard/ONTARIOSURGICALWAITTIMES-HEALTHANALYTICSDASHBOARD'
+          with sync_playwright() as p:
+              browser=p.chromium.launch(headless=True)
+              page=browser.new_page(viewport={'width':1400,'height':900})
+              errors=[]
+              page.on('pageerror',lambda x: errors.append(str(x)))
+              try:
+                  res=page.goto(url,wait_until='domcontentloaded',timeout=30000)
+                  print('HTTP:',res.status if res else None, flush=True)
+                  page.wait_for_timeout(15000)
+                  print('Title:',page.title()[:180],flush=True)
+                  print('URL:',page.url,flush=True)
+                  print('Body excerpt:',page.locator('body').inner_text(timeout=10000)[:1400].replace('\\n',' '),flush=True)
+                  print('Iframe count:',page.locator('iframe').count(),flush=True)
+                  print('Tableau visualization count:',page.locator('tableau-viz').count(),flush=True)
+                  print('Browser JS errors:',errors[:5],flush=True)
+                  page.screenshot(path='tableau-preview.png',full_page=True,timeout=30000)
+              finally:browser.close()
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tableau-browser-screenshot
+          path: tableau-preview.png
