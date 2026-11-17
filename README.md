@@ -1,5 +1,28 @@
 # Project 4: Ontario Surgical Wait Time Analysis
 
+## Primary official-source study: Ontario surgery activity and waitlists (2019–2022)
+
+This repository now includes a reproducible **real-data analysis** of official public aggregate tables from the **Financial Accountability Office of Ontario**, based on surgical activity reported by Ontario Health. The source report was published in 2023.
+
+- [Verified Ontario surgery findings](OFFICIAL_ONTARIO_SURGERY_FINDINGS.md)
+- [Source-linked annual tables: 276 records](official_ontario_fao_surgery_2019_2022.csv)
+- [HTML extraction and validation Python script](official_ontario_fao_surgery.py)
+- [Automated source-validation workflow](https://github.com/Famiyke/ontario-wait-times/actions/workflows/build-official-ontario.yml)
+
+Source: https://fao-on.org/en/report/health-2023/
+
+The official tables contain annual **surgeries performed**, **average surgical waitlists**, and **FAO-estimated waiting months** by service area. The last year is 2022. The FAO waiting-month estimate is based on waitlist sizes and throughput, **not a direct patient-level Wait 2 median**.
+
+```bash
+pip install requests beautifulsoup4
+python official_ontario_fao_surgery.py
+```
+
+The earlier `simulate_waittimes.py` and Tableau dashboard remain an archived **fictional hospital-ranking demonstration** and are not proof of real hospital performance.
+
+---
+
+
 > **PROJECT VALIDATION STATUS:** The Python demonstration workflow has passed GitHub Actions. Generated model parameters and subgroup comparisons are synthetic. No synthetic values should be described as verified official health-system statistics. See [SOURCE_VALIDATION.md](SOURCE_VALIDATION.md) for the evidence boundary.\n\n
 > **DATA PROVENANCE:** This portfolio project uses simulated records informed by named Canadian public sources. All generated statistics, rankings, demographic differences, and savings models are illustrative rather than verified official estimates. Recommendations are hypothetical scenarios, not observed effects.
 
