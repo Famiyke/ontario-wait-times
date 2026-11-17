@@ -1,0 +1,277 @@
+service_area,year,metric,value,unit,source_table,fao_reported_change_2019_to_2022,source_publisher,source_url
+General Surgery,2019,surgeries_performed,80389,count,A-1,-16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2020,surgeries_performed,59346,count,A-1,-16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2021,surgeries_performed,64706,count,A-1,-16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2022,surgeries_performed,67480,count,A-1,-16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2019,surgeries_performed,56882,count,A-1,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2020,surgeries_performed,38870,count,A-1,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2021,surgeries_performed,42539,count,A-1,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2022,surgeries_performed,45239,count,A-1,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2019,surgeries_performed,7326,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2020,surgeries_performed,5546,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2021,surgeries_performed,5768,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2022,surgeries_performed,6302,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2019,surgeries_performed,57155,count,A-1,-1%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2020,surgeries_performed,49069,count,A-1,-1%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2021,surgeries_performed,53783,count,A-1,-1%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2022,surgeries_performed,56845,count,A-1,-1%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2019,surgeries_performed,163340,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2020,surgeries_performed,112740,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2021,surgeries_performed,145878,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2022,surgeries_performed,153059,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2019,surgeries_performed,9285,count,A-1,-42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2020,surgeries_performed,5076,count,A-1,-42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2021,surgeries_performed,5632,count,A-1,-42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2022,surgeries_performed,5409,count,A-1,-42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2019,surgeries_performed,111995,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2020,surgeries_performed,80862,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2021,surgeries_performed,93210,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2022,surgeries_performed,96148,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2019,surgeries_performed,27041,count,A-1,-22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2020,surgeries_performed,18226,count,A-1,-22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2021,surgeries_performed,20141,count,A-1,-22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2022,surgeries_performed,21142,count,A-1,-22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2019,surgeries_performed,501,count,A-1,5%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2020,surgeries_performed,493,count,A-1,5%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2021,surgeries_performed,492,count,A-1,5%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2022,surgeries_performed,527,count,A-1,5%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2019,surgeries_performed,10557,count,A-1,-39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2020,surgeries_performed,6081,count,A-1,-39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2021,surgeries_performed,7703,count,A-1,-39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2022,surgeries_performed,6474,count,A-1,-39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2019,surgeries_performed,3838,count,A-1,-18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2020,surgeries_performed,2895,count,A-1,-18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2021,surgeries_performed,3295,count,A-1,-18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2022,surgeries_performed,3147,count,A-1,-18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2019,surgeries_performed,397,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2020,surgeries_performed,307,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2021,surgeries_performed,418,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2022,surgeries_performed,372,count,A-1,-6%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2019,surgeries_performed,490,count,A-1,-13%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2020,surgeries_performed,396,count,A-1,-13%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2021,surgeries_performed,510,count,A-1,-13%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2022,surgeries_performed,425,count,A-1,-13%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2019,surgeries_performed,3687,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2020,surgeries_performed,2644,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2021,surgeries_performed,3427,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2022,surgeries_performed,2986,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2019,surgeries_performed,4345,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2020,surgeries_performed,3048,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2021,surgeries_performed,3837,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2022,surgeries_performed,3513,count,A-1,-19%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2019,surgeries_performed,22117,count,A-1,-50%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2020,surgeries_performed,11820,count,A-1,-50%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2021,surgeries_performed,8590,count,A-1,-50%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2022,surgeries_performed,10966,count,A-1,-50%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2019,surgeries_performed,2963,count,A-1,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2020,surgeries_performed,2113,count,A-1,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2021,surgeries_performed,3093,count,A-1,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2022,surgeries_performed,3023,count,A-1,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2019,surgeries_performed,4201,count,A-1,-24%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2020,surgeries_performed,2727,count,A-1,-24%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2021,surgeries_performed,3415,count,A-1,-24%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2022,surgeries_performed,3185,count,A-1,-24%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2019,surgeries_performed,26404,count,A-1,-28%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2020,surgeries_performed,16968,count,A-1,-28%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2021,surgeries_performed,18024,count,A-1,-28%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2022,surgeries_performed,19082,count,A-1,-28%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2019,surgeries_performed,1896,count,A-1,-9%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2020,surgeries_performed,1351,count,A-1,-9%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2021,surgeries_performed,1351,count,A-1,-9%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2022,surgeries_performed,1732,count,A-1,-9%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2019,surgeries_performed,43425,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2020,surgeries_performed,32371,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2021,surgeries_performed,36550,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2022,surgeries_performed,38533,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2019,surgeries_performed,11065,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2020,surgeries_performed,8836,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2021,surgeries_performed,9879,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2022,surgeries_performed,9898,count,A-1,-11%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2019,surgeries_performed,649299,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2020,surgeries_performed,461785,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2021,surgeries_performed,532241,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2022,surgeries_performed,555487,count,A-1,-14%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2019,average_waitlist,18139,count,A-2,51%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2020,average_waitlist,20430,count,A-2,51%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2021,average_waitlist,23076,count,A-2,51%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2022,average_waitlist,27438,count,A-2,51%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2019,average_waitlist,14705,count,A-2,46%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2020,average_waitlist,16077,count,A-2,46%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2021,average_waitlist,18314,count,A-2,46%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2022,average_waitlist,21402,count,A-2,46%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2019,average_waitlist,2140,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2020,average_waitlist,2397,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2021,average_waitlist,2271,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2022,average_waitlist,2452,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2019,average_waitlist,5886,count,A-2,21%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2020,average_waitlist,5640,count,A-2,21%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2021,average_waitlist,5796,count,A-2,21%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2022,average_waitlist,7130,count,A-2,21%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2019,average_waitlist,58776,count,A-2,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2020,average_waitlist,59330,count,A-2,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2021,average_waitlist,70743,count,A-2,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2022,average_waitlist,76393,count,A-2,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2019,average_waitlist,3826,count,A-2,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2020,average_waitlist,3526,count,A-2,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2021,average_waitlist,3587,count,A-2,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2022,average_waitlist,3917,count,A-2,2%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2019,average_waitlist,50475,count,A-2,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2020,average_waitlist,52362,count,A-2,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2021,average_waitlist,53680,count,A-2,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2022,average_waitlist,58718,count,A-2,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2019,average_waitlist,10242,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2020,average_waitlist,9907,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2021,average_waitlist,11839,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2022,average_waitlist,13957,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2019,average_waitlist,83,count,A-2,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2020,average_waitlist,130,count,A-2,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2021,average_waitlist,105,count,A-2,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2022,average_waitlist,101,count,A-2,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2019,average_waitlist,4261,count,A-2,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2020,average_waitlist,3824,count,A-2,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2021,average_waitlist,3199,count,A-2,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2022,average_waitlist,3395,count,A-2,-20%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2019,average_waitlist,872,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2020,average_waitlist,966,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2021,average_waitlist,850,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2022,average_waitlist,1190,count,A-2,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2019,average_waitlist,96,count,A-2,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2020,average_waitlist,128,count,A-2,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2021,average_waitlist,147,count,A-2,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2022,average_waitlist,140,count,A-2,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2019,average_waitlist,67,count,A-2,32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2020,average_waitlist,96,count,A-2,32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2021,average_waitlist,81,count,A-2,32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2022,average_waitlist,88,count,A-2,32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2019,average_waitlist,1156,count,A-2,18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2020,average_waitlist,1339,count,A-2,18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2021,average_waitlist,1258,count,A-2,18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2022,average_waitlist,1362,count,A-2,18%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2019,average_waitlist,1788,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2020,average_waitlist,2028,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2021,average_waitlist,1841,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2022,average_waitlist,2059,count,A-2,15%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2019,average_waitlist,5482,count,A-2,-32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2020,average_waitlist,5068,count,A-2,-32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2021,average_waitlist,3033,count,A-2,-32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2022,average_waitlist,3713,count,A-2,-32%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2019,average_waitlist,1026,count,A-2,65%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2020,average_waitlist,1190,count,A-2,65%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2021,average_waitlist,1465,count,A-2,65%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2022,average_waitlist,1694,count,A-2,65%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2019,average_waitlist,1884,count,A-2,78%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2020,average_waitlist,2333,count,A-2,78%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2021,average_waitlist,2812,count,A-2,78%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2022,average_waitlist,3349,count,A-2,78%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2019,average_waitlist,8062,count,A-2,10%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2020,average_waitlist,7601,count,A-2,10%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2021,average_waitlist,8129,count,A-2,10%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2022,average_waitlist,8852,count,A-2,10%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2019,average_waitlist,373,count,A-2,90%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2020,average_waitlist,337,count,A-2,90%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2021,average_waitlist,484,count,A-2,90%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2022,average_waitlist,707,count,A-2,90%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2019,average_waitlist,8661,count,A-2,43%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2020,average_waitlist,9343,count,A-2,43%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2021,average_waitlist,10392,count,A-2,43%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2022,average_waitlist,12427,count,A-2,43%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2019,average_waitlist,1888,count,A-2,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2020,average_waitlist,2014,count,A-2,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2021,average_waitlist,2271,count,A-2,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2022,average_waitlist,2506,count,A-2,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2019,average_waitlist,199890,count,A-2,27%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2020,average_waitlist,206066,count,A-2,27%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2021,average_waitlist,225372,count,A-2,27%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2022,average_waitlist,252986,count,A-2,27%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2019,fao_estimated_wait_months,2.7,months,A-3,80%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2020,fao_estimated_wait_months,4.1,months,A-3,80%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2021,fao_estimated_wait_months,4.3,months,A-3,80%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+General Surgery,2022,fao_estimated_wait_months,4.9,months,A-3,80%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2019,fao_estimated_wait_months,3.1,months,A-3,83%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2020,fao_estimated_wait_months,5.0,months,A-3,83%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2021,fao_estimated_wait_months,5.2,months,A-3,83%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Gynaecologic Surgery,2022,fao_estimated_wait_months,5.7,months,A-3,83%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2019,fao_estimated_wait_months,3.5,months,A-3,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2020,fao_estimated_wait_months,5.2,months,A-3,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2021,fao_estimated_wait_months,4.7,months,A-3,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Neurosurgery,2022,fao_estimated_wait_months,4.7,months,A-3,33%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2019,fao_estimated_wait_months,1.2,months,A-3,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2020,fao_estimated_wait_months,1.4,months,A-3,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2021,fao_estimated_wait_months,1.3,months,A-3,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oncology Procedures,2022,fao_estimated_wait_months,1.5,months,A-3,22%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2019,fao_estimated_wait_months,4.3,months,A-3,39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2020,fao_estimated_wait_months,6.3,months,A-3,39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2021,fao_estimated_wait_months,5.8,months,A-3,39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Ophthalmic Surgery,2022,fao_estimated_wait_months,6.0,months,A-3,39%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2019,fao_estimated_wait_months,4.9,months,A-3,76%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2020,fao_estimated_wait_months,8.3,months,A-3,76%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2021,fao_estimated_wait_months,7.6,months,A-3,76%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Oral and Maxillofacial,2022,fao_estimated_wait_months,8.7,months,A-3,76%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2019,fao_estimated_wait_months,5.4,months,A-3,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2020,fao_estimated_wait_months,7.8,months,A-3,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2021,fao_estimated_wait_months,6.9,months,A-3,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Orthopaedic Surgery,2022,fao_estimated_wait_months,7.3,months,A-3,36%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2019,fao_estimated_wait_months,4.5,months,A-3,74%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2020,fao_estimated_wait_months,6.5,months,A-3,74%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2021,fao_estimated_wait_months,7.1,months,A-3,74%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Otolaryngic Surgery,2022,fao_estimated_wait_months,7.9,months,A-3,74%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2019,fao_estimated_wait_months,2.0,months,A-3,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2020,fao_estimated_wait_months,3.2,months,A-3,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2021,fao_estimated_wait_months,2.5,months,A-3,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Cardiovascular Surgery,2022,fao_estimated_wait_months,2.3,months,A-3,16%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2019,fao_estimated_wait_months,4.8,months,A-3,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2020,fao_estimated_wait_months,7.5,months,A-3,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2021,fao_estimated_wait_months,5.0,months,A-3,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Dental/Oral/Maxillofacial,2022,fao_estimated_wait_months,6.3,months,A-3,30%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2019,fao_estimated_wait_months,2.7,months,A-3,66%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2020,fao_estimated_wait_months,4.0,months,A-3,66%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2021,fao_estimated_wait_months,3.1,months,A-3,66%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric General Surgery,2022,fao_estimated_wait_months,4.5,months,A-3,66%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2019,fao_estimated_wait_months,2.9,months,A-3,55%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2020,fao_estimated_wait_months,5.0,months,A-3,55%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2021,fao_estimated_wait_months,4.2,months,A-3,55%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Gynaecologic Surgery,2022,fao_estimated_wait_months,4.5,months,A-3,55%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2019,fao_estimated_wait_months,1.6,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2020,fao_estimated_wait_months,2.9,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2021,fao_estimated_wait_months,1.9,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Neurosurgery,2022,fao_estimated_wait_months,2.5,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2019,fao_estimated_wait_months,3.8,months,A-3,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2020,fao_estimated_wait_months,6.1,months,A-3,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2021,fao_estimated_wait_months,4.4,months,A-3,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Ophthalmic Surgery,2022,fao_estimated_wait_months,5.5,months,A-3,45%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2019,fao_estimated_wait_months,4.9,months,A-3,42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2020,fao_estimated_wait_months,8.0,months,A-3,42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2021,fao_estimated_wait_months,5.8,months,A-3,42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Orthopaedic Surgery,2022,fao_estimated_wait_months,7.0,months,A-3,42%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2019,fao_estimated_wait_months,3.0,months,A-3,37%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2020,fao_estimated_wait_months,5.1,months,A-3,37%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2021,fao_estimated_wait_months,4.2,months,A-3,37%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Otolaryngic Surgery,2022,fao_estimated_wait_months,4.1,months,A-3,37%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2019,fao_estimated_wait_months,4.2,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2020,fao_estimated_wait_months,6.8,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2021,fao_estimated_wait_months,5.7,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Plastic and Reconstruct.,2022,fao_estimated_wait_months,6.7,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2019,fao_estimated_wait_months,5.4,months,A-3,134%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2020,fao_estimated_wait_months,10.3,months,A-3,134%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2021,fao_estimated_wait_months,9.9,months,A-3,134%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Paediatric Urologic Surgery,2022,fao_estimated_wait_months,12.6,months,A-3,134%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2019,fao_estimated_wait_months,3.7,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2020,fao_estimated_wait_months,5.4,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2021,fao_estimated_wait_months,5.4,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Plastic and Reconstructive Surgery,2022,fao_estimated_wait_months,5.6,months,A-3,52%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2019,fao_estimated_wait_months,2.4,months,A-3,108%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2020,fao_estimated_wait_months,3.0,months,A-3,108%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2021,fao_estimated_wait_months,4.3,months,A-3,108%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Thoracic Surgery,2022,fao_estimated_wait_months,4.9,months,A-3,108%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2019,fao_estimated_wait_months,2.4,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2020,fao_estimated_wait_months,3.5,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2021,fao_estimated_wait_months,3.4,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Urologic Surgery,2022,fao_estimated_wait_months,3.9,months,A-3,62%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2019,fao_estimated_wait_months,2.0,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2020,fao_estimated_wait_months,2.7,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2021,fao_estimated_wait_months,2.8,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Vascular Surgery,2022,fao_estimated_wait_months,3.0,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2019,fao_estimated_wait_months,3.7,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2020,fao_estimated_wait_months,5.4,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2021,fao_estimated_wait_months,5.1,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
+Total,2022,fao_estimated_wait_months,5.5,months,A-3,48%,Financial Accountability Office of Ontario,https://fao-on.org/en/report/health-2023/
