@@ -55,27 +55,13 @@ python analysis.py             # full analysis with cleaning, rankings, recommen
 
 ---
 
-## Illustrative Findings From Generated Data
+## Illustrative analytical outputs
 
-1. **Northern access gap.** Hip and knee replacement wait times in northern Ontario average 31% longer than in Toronto for the same Priority 3 level. Rural hospitals average 23 percentage points lower compliance than urban hospitals.
+This project's Python/SQL outputs illustrate data processing, comparisons, modeling and reporting using generated records. The specific rates, rankings, cost figures and trends in the demonstration are **not verified official findings**. See the analysis scripts for the computations and the data limitations section below for interpretation requirements.
 
-2. **Widespread target failure.** Overall Priority 3 compliance averages 80% — below the 90% provincial target. 11 of 15 hospitals fall below the 90% benchmark.
+## Interpretation and real-world next steps
 
-3. **COVID recovery near-complete.** COVID-19 caused a 15 percentage point compliance drop in 2020. Near-full recovery by 2023, now only 1.2pp below the pre-COVID baseline — but northern hospitals have recovered more slowly than urban ones.
-
-4. **Procedure variation.** Hip and knee replacement show the longest median wait times. MRI and CT Scan show greater variation by region, with northern hospitals disproportionately affected.
-
----
-
-## Hypothetical Recommendations
-
-1. **Deploy mobile surgical teams to northern Ontario.** Kenora, Timmins, and North Bay show the lowest compliance rates. Quarterly mobile orthopaedic teams would reduce the northern access gap without requiring permanent facility investment.
-
-2. **Publish real-time hospital compliance dashboards.** Ontario Health should make hospital-level compliance data publicly available on a rolling 90-day basis to create accountability pressure and help patients make informed referral decisions.
-
-3. **Structured COVID backlog program.** Despite near-full recovery at the provincial level, individual hospitals — particularly in the north — have not returned to pre-COVID performance. A targeted backlog reduction program with hospital-specific timelines is needed.
-
----
+Use the simulated findings to demonstrate analytical methods, not to rank actual jurisdictions or recommend clinical or policy interventions. A real decision requires matched official data, documented definitions, relevant uncertainty, and clinical or operational stakeholder review. Financial scenarios must include assumptions, costs and sensitivity analysis.
 
 ## Files
 
