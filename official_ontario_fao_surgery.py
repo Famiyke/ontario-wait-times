@@ -8,9 +8,11 @@ Table A-1: annual surgeries performed (observed reported aggregates)
 Table A-2: average surgical waitlist (2022 Jan–Sep only)
 Table A-3: FAO-estimated months of surgical waiting (Little's Law proxy)
 
-These are real published tables based on data provided by Ontario Health,
-not the previous fictional hospital-level performance dataset.
+The tables contain published Ontario Health aggregates. Table A-3 provides
+estimated waiting times based on surgical throughput and waitlist size.
 """
+
+import argparse
 import csv
 from pathlib import Path
 import requests
@@ -30,16 +32,18 @@ def clean_number(v):
     return float(v.replace(",", "").replace("−", "-").strip())
 
 
-def main():
-    response = requests.get(URL, timeout=50, headers={"User-Agent": "Mozilla/5.0"})
-    response.raise_for_status()
-    page = BeautifulSoup(response.text, "html.parser")
+def extract_tables(source):
+    """Read the published tables and check the service areas and headline totals."""
+    page = BeautifulSoup(source, "html.parser")
     tables = page.find_all("table")
     output = []
     by_table = {}
     for table_id, (metric, unit) in TABLES.items():
-        matches = [table for table in tables
-                   if table.get_text(" ", strip=True).startswith(f"Table {table_id} ")]
+        matches = [
+            table
+            for table in tables
+            if table.get_text(" ", strip=True).startswith(f"Table {table_id} ")
+        ]
         assert len(matches) == 1, f"Could not uniquely locate official {table_id}"
         table = matches[0]
         entries = {}
@@ -56,18 +60,22 @@ def main():
             entries[area] = numbers
             reported = values[5]
             for year, val in zip((2019, 2020, 2021, 2022), numbers):
-                output.append({
-                    "service_area": area,
-                    "year": year,
-                    "metric": metric,
-                    "value": int(val) if unit == "count" else val,
-                    "unit": unit,
-                    "source_table": table_id,
-                    "fao_reported_change_2019_to_2022": reported,
-                    "source_publisher": "Financial Accountability Office of Ontario",
-                    "source_url": URL
-                })
-        assert len(entries) == 23, f"Expected 22 service areas + total in {table_id}; got {len(entries)}"
+                output.append(
+                    {
+                        "service_area": area,
+                        "year": year,
+                        "metric": metric,
+                        "value": int(val) if unit == "count" else val,
+                        "unit": unit,
+                        "source_table": table_id,
+                        "fao_reported_change_2019_to_2022": reported,
+                        "source_publisher": "Financial Accountability Office of Ontario",
+                        "source_url": URL,
+                    }
+                )
+        assert (
+            len(entries) == 23
+        ), f"Expected 22 service areas + total in {table_id}; got {len(entries)}"
         assert "Total" in entries and "General Surgery" in entries
         by_table[table_id] = entries
     assert len(output) == 23 * 4 * 3
@@ -75,6 +83,20 @@ def main():
     assert by_table["A-3"]["Total"] == [3.7, 5.4, 5.1, 5.5]
     assert by_table["A-3"]["General Surgery"] == [2.7, 4.1, 4.3, 4.9]
     assert by_table["A-2"]["Total"][0] == 199890
+    return output, by_table
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--source", type=Path, help="Use the saved FAO report HTML")
+    args = parser.parse_args()
+    if args.source:
+        source = args.source.read_bytes()
+    else:
+        response = requests.get(URL, timeout=50, headers={"User-Agent": "Mozilla/5.0"})
+        response.raise_for_status()
+        source = response.text
+    output, by_table = extract_tables(source)
     with OUTPUT.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=list(output[0]))
         writer.writeheader()
@@ -83,7 +105,7 @@ def main():
     waits = by_table["A-3"]["Total"]
     report = f"""# Ontario surgical wait times: official FAO public tables, 2019–2022
 
-This analysis reproduces **real published aggregate surgery data**, using the Financial Accountability Office of Ontario's 2023 report and underlying data supplied by Ontario Health. It is distinct from the former synthetic hospital-level dashboard.
+The analysis uses published surgery aggregates from the Financial Accountability Office of Ontario’s 2023 report, based on data supplied by Ontario Health.
 
 **Official source:** {URL}
 
@@ -95,18 +117,18 @@ This analysis reproduces **real published aggregate surgery data**, using the Fi
 | FAO estimated average surgical waiting time, months | {waits[0]:.1f} | {waits[3]:.1f} | FAO Table A-3 |
 | Average surgical waitlist, persons | {int(by_table['A-2']['Total'][0]):,} | {int(by_table['A-2']['Total'][3]):,} | FAO Table A-2 |
 
-The 2022 average waitlist is based on January to September only. The FAO wait-time measure is an **estimate based on waitlist size and surgical throughput**, NOT a direct distribution of patient-level Wait 2 times.
+The 2022 average waitlist is based on January to September only. The FAO wait-time measure is an **estimate based on waitlist size and surgical throughput**. It describes the aggregate estimated wait, rather than the distribution of individual Wait 2 times.
 
 ## Reproducibility and validation
 
-The extraction parses the original HTML tables **A-1, A-2 and A-3**, rather than using simulated numbers. It checks the presence of all 22 reported service areas plus the total row, verifies expected official total surgery counts and wait-month figures, and writes 276 source-linked records (23 areas including the total, four years, three measures).
+The extraction reads the original HTML tables A-1, A-2 and A-3. It checks the presence of all 22 reported service areas plus the total row, verifies expected official total surgery counts and wait-month figures, and writes 276 source-linked records (23 areas including the total, four years, three measures).
 
 ```bash
 pip install requests beautifulsoup4
 python official_ontario_fao_surgery.py
 ```
 
-The original `ontario_waittimes.csv` and Tableau report show a **synthetic hospital-level scenario**, not these FAO public aggregates. Do not use the simulated facility rankings to make clinical or hospital-performance comparisons.
+To reproduce the extraction from a saved report, run `python official_ontario_fao_surgery.py --source path/to/report.html`. The earlier facility-level Tableau scenario uses simulated data and is retained separately.
 
 ## Limitations
 

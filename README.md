@@ -1,15 +1,15 @@
 # Project 4: Ontario Surgical Wait Time Analysis
 
-## Reviewed interactive dashboard (no Power BI login required)
+## Interactive surgical access dashboard
 
-[**Open the Real-data Ontario surgery and waitlist visualization**](https://famiyke.github.io/health-data-portfolio/dashboards/ontario.html)
+[**Explore Ontario surgical access**](https://famiyke.github.io/health-data-portfolio/dashboards/ontario.html)
 
-This version uses official FAO tables based on Ontario Health data, without the fictional hospital rankings. The web dashboard is distinct from the older PBIX or Tableau visualization. Those legacy files were **not edited or republished** and should not be used as validated outputs.
+The dashboard displays surgical activity, waitlists and estimated waiting times from published FAO tables. The earlier facility-level Tableau and Power BI workbooks remain separate simulated scenarios.
 
 
-## Primary official-source study: Ontario surgery activity and waitlists (2019–2022)
+## Source data and analysis (2019–2022)
 
-This repository now includes a reproducible **real-data analysis** of official public aggregate tables from the **Financial Accountability Office of Ontario**, based on surgical activity reported by Ontario Health. The source report was published in 2023.
+The analysis uses aggregate tables from the Financial Accountability Office of Ontario’s 2023 report, based on surgical activity reported by Ontario Health.
 
 - [Verified Ontario surgery findings](OFFICIAL_ONTARIO_SURGERY_FINDINGS.md)
 - [Source-linked annual tables: 276 records](official_ontario_fao_surgery_2019_2022.csv)
@@ -24,6 +24,8 @@ The official tables contain annual **surgeries performed**, **average surgical w
 pip install requests beautifulsoup4
 python official_ontario_fao_surgery.py
 ```
+
+The script reads the three published tables, checks the service-area counts and reported totals, and preserves the original source references. To work from a saved copy of the FAO report, use `python official_ontario_fao_surgery.py --source path/to/report.html`.
 
 The earlier `simulate_waittimes.py` and Tableau dashboard remain an archived **fictional hospital-ranking demonstration** and are not proof of real hospital performance.
 
